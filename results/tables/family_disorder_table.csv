@@ -1,0 +1,1718 @@
+family,n_iso,n_genes,median_idr,mean_idr,tf_frac
+ALMS1 family,3,1,100.0,100.0,0.0
+Protease inhibitor I27 (calpastatin) family,10,1,100.0,100.0,0.0
+HAX1 family,6,1,100.0,89.442,0.0
+Periaxin family,3,1,100.0,66.667,0.0
+GnRH family,3,1,100.0,100.0,0.0
+Vestigial family,6,1,100.0,100.0,0.0
+RITA family,3,1,100.0,100.0,0.0
+Caldesmon family,6,1,100.0,100.0,0.0
+Mitoguardin family,3,1,100.0,85.104,0.0
+ATPase inhibitor family,3,1,100.0,82.704,0.0
+Vasculin family,4,1,100.0,97.103,1.0
+Mastermind family,3,1,100.0,98.13,0.0
+RBM5/RBM10 family,5,1,100.0,92.344,0.0
+SERBP1-HABP4 family,4,1,100.0,100.0,0.0
+SERF family,4,1,100.0,100.0,0.0
+Glycophorin A family,3,1,100.0,100.0,0.0
+Verprolin family,4,1,100.0,100.0,0.0
+AUTS2 family,4,1,100.0,99.265,0.0
+RSRP family,3,1,100.0,100.0,0.0
+BCL9 family,4,1,100.0,100.0,0.0
+C19orf12 family,4,1,100.0,75.0,0.0
+FAM219 family,10,2,100.0,96.497,0.0
+MLF family,5,1,100.0,91.355,0.0
+Glucose-6-phosphatase family,3,1,100.0,66.667,0.0
+MTFR1 family,3,1,100.0,74.472,0.0
+Amelogenin family,3,1,100.0,100.0,0.0
+MacroD-type family,5,1,100.0,77.992,0.0
+MRNIP family,3,1,100.0,100.0,0.0
+HMGA family,9,2,100.0,100.0,1.0
+VCF family,6,1,100.0,87.735,0.0
+Synuclein family,3,1,100.0,66.667,0.0
+HOATZ family,3,1,100.0,90.335,0.0
+Dysbindin family,10,3,100.0,83.82,0.0
+FAM122 family,8,2,100.0,91.987,0.0
+IL-7/IL-9 family,3,1,100.0,83.051,0.0
+IFI6/IFI27 family,7,2,100.0,85.714,0.0
+Synaptopodin family,8,2,100.0,96.03,0.0
+CD99 family,12,3,100.0,92.723,0.0
+Ric-3 family,5,1,100.0,96.413,0.0
+POU2AF family,4,1,100.0,100.0,0.0
+POM121 family,3,1,100.0,100.0,0.0
+STOP family,3,1,100.0,100.0,0.0
+Bombesin/neuromedin-B/ranatensin family,3,1,100.0,100.0,0.0
+SS18 family,5,1,100.0,94.106,0.0
+Elastin family,13,1,100.0,100.0,0.0
+SH3RF family,3,1,100.0,86.923,0.0
+4E-T/EIF4E-T family,3,1,100.0,100.0,0.0
+Elbow/Noc family,3,1,100.0,100.0,1.0
+YAP1 family,9,1,100.0,100.0,0.0
+Myozenin family,3,1,100.0,100.0,0.0
+Zyxin/ajuba family,3,1,100.0,84.524,0.0
+Myelin basic protein family,6,1,100.0,100.0,0.0
+NK-2 homeobox family,3,1,100.0,93.621,1.0
+KRTAP type 9 family,3,1,100.0,100.0,0.0
+Tachykinin family,12,3,100.0,95.045,0.0
+STPG1 family,3,1,100.0,100.0,0.0
+JUPITER family,6,2,100.0,96.777,0.0
+UPF0690 family,3,1,100.0,100.0,0.0
+PPDPF family,3,1,100.0,100.0,0.0
+SZRD1 family,5,1,100.0,100.0,0.0
+PSRC1 family,4,1,100.0,100.0,0.0
+CIMAP family,3,1,100.0,100.0,0.0
+Osteopontin family,4,1,100.0,100.0,0.0
+PF07175/osteoregulin family,3,1,100.0,100.0,0.0
+LST1 family,12,1,100.0,81.91,0.0
+MAJIN family,3,1,100.0,81.173,0.0
+FAM168 family,3,1,100.0,100.0,0.0
+FAM131 family,6,2,100.0,100.0,0.0
+CDV3 family,3,1,100.0,100.0,0.0
+CENP-T/CNN1 family,3,1,100.0,93.939,1.0
+TYROBP family,3,1,100.0,100.0,0.0
+Tropomodulin family,3,1,100.0,90.128,0.0
+Taperin family,4,1,100.0,96.976,0.0
+CWC21 family,3,1,97.674,98.311,0.0
+Dapper family,4,1,97.61,95.412,0.0
+Type IV collagen family,5,1,96.595,93.589,0.0
+MDM1 family,4,1,95.508,91.223,0.0
+GW182 family,13,3,95.319,91.424,0.0
+BCLAF1/THRAP3 family,7,2,95.047,89.846,0.0
+NPIP family,6,1,94.665,95.022,0.0
+CCSER family,4,1,94.664,92.593,0.0
+FAM21 family,7,1,94.47,95.988,0.0
+SLAIN motif-containing family,4,1,94.278,91.916,0.0
+NHS family,4,1,93.928,94.955,0.0
+AKNA family,12,2,93.534,92.039,0.667
+NUP153 family,3,1,93.492,93.449,0.0
+RAP80 family,5,1,92.405,84.338,0.0
+LEM family,3,1,92.291,93.952,0.0
+TORC family,3,1,91.956,91.78,0.0
+Claspin family,3,1,91.667,91.525,0.0
+MAP7 family,20,4,91.288,93.977,0.0
+CCSAP family,4,1,91.111,86.059,0.0
+Arkadia family,4,1,91.074,91.04,0.0
+TALPID3 family,4,1,90.717,90.549,0.0
+NOLC1 family,3,1,90.714,90.749,0.0
+Ataxin-2 family,14,2,90.079,90.125,0.0
+NUSAP family,7,1,89.545,91.004,0.0
+MYT1 family,3,1,89.189,69.61,1.0
+CEP170 family,6,2,88.781,88.551,0.0
+NYAP family,3,1,88.668,70.016,0.0
+PMEPA1 family,11,2,88.562,91.244,0.0
+N-CoR nuclear receptor corepressors family,7,2,88.106,86.806,0.0
+FAM149 family,4,1,88.094,88.993,0.0
+BCOR family,7,2,87.915,88.863,0.0
+TALE/IRO homeobox family,3,1,87.759,87.132,1.0
+RRM TET family,6,1,87.338,89.008,0.0
+NUT family,4,1,86.239,83.175,0.0
+UIF family,4,1,85.747,88.69,0.0
+LIMCH1 family,10,1,85.17,83.156,0.0
+Dermokine family,16,1,85.024,76.389,0.0
+SPATA31 family,4,1,84.945,84.857,0.0
+MCAF family,4,1,84.929,86.691,0.0
+CD225/Dispanin family,8,2,84.883,83.476,0.0
+SAP130 family,3,1,84.637,81.006,0.0
+AF4 family,13,3,84.591,87.529,0.0
+FAM170 family,4,1,84.204,83.882,1.0
+TCF/LEF family,39,3,83.855,83.917,1.0
+Aspartyl/asparaginyl beta-hydroxylase family,11,1,83.333,76.258,0.0
+Phosphatase and actin regulator family,12,3,83.264,82.302,0.0
+CCBE1 family,3,1,83.256,79.148,0.0
+Sp1 C2H2-type zinc-finger protein family,24,6,83.174,84.373,1.0
+COM1/SAE2/CtIP family,3,1,83.166,83.078,0.0
+MEF2 family,20,3,83.126,84.091,1.0
+PROCA1 family,3,1,83.036,86.16,0.0
+Antp homeobox family,9,3,82.759,77.91,1.0
+Kizuna family,5,1,82.467,89.126,0.0
+UPF0606 family,4,1,82.45,82.493,0.0
+FAM193 family,10,2,82.357,84.902,0.0
+SAPAP family,16,4,82.346,83.333,0.0
+FIP1 family,4,1,82.107,80.399,0.0
+SEC16 family,8,2,82.106,70.698,0.0
+Paralemmin family,3,1,81.741,82.843,0.0
+Ataxin-7 family,3,1,81.693,82.933,0.0
+LSM14 family,6,2,81.656,83.783,0.0
+TET family,10,3,81.597,83.813,1.0
+PHF23 family,4,1,81.546,85.267,0.0
+P33MONOX family,3,1,81.311,87.477,0.0
+CCDC78 family,6,1,81.116,76.064,0.0
+Distal-less homeobox family,6,2,80.051,80.547,1.0
+GAB family,3,1,79.693,79.235,0.0
+GIGYF family,4,1,79.63,79.721,0.0
+SRC/p160 nuclear receptor coactivator family,8,2,79.221,78.97,1.0
+TALE/TGIF homeobox family,4,1,79.024,80.043,1.0
+Fibrillar collagen family,19,4,78.514,71.746,0.0
+Delta-EF1/ZFH-1 C2H2-type zinc-finger family,5,1,78.43,78.388,1.0
+SH2B adapter family,3,1,78.331,78.8,0.0
+SPT2 family,3,1,78.306,80.417,0.0
+TNFR8 family,3,1,78.054,80.248,0.0
+Adenomatous polyposis coli (APC) family,6,2,78.003,77.052,0.0
+CKAP2 family,7,2,77.918,73.223,0.0
+SMN family,4,1,77.911,77.939,0.0
+HDGF family,10,3,77.535,81.09,0.0
+Enhancer of polycomb family,3,1,77.491,77.103,0.0
+Sal C2H2-type zinc-finger protein family,4,1,77.491,77.439,1.0
+MiT/TFE family,16,2,77.345,73.23,1.0
+PRDM16 family,4,1,77.312,76.189,1.0
+PPP4R2 family,3,1,77.222,73.897,0.0
+ATG37 family,4,1,77.204,77.838,0.0
+UTP14 family,3,1,77.114,75.399,0.0
+Tango11 family,5,1,76.955,78.424,0.0
+BZIP family,92,15,76.759,72.758,0.967
+PCM1 family,5,1,76.689,75.856,0.0
+GRINL1 family,3,1,76.584,74.983,0.0
+ARL6IP4 family,10,1,76.28,77.014,0.0
+CNST family,3,1,76.276,73.754,0.0
+SCHIP1 family,4,1,76.162,76.033,0.0
+BBP/SF1 family,7,1,76.02,72.167,0.0
+FAM89 family,4,1,75.997,77.196,0.0
+Epsin family,10,3,75.986,76.982,0.0
+Nup35 family,3,1,75.728,71.471,0.0
+SOGA family,4,1,75.521,76.325,0.0
+SPMIP6 family,5,1,75.191,55.038,0.0
+TMEM71 family,3,1,75.0,73.956,0.0
+GLI C2H2-type zinc-finger protein family,16,4,74.815,70.618,1.0
+SKA3 family,3,1,74.757,82.737,0.0
+FAM47 family,3,1,74.644,67.608,0.0
+Xin family,11,2,74.302,76.609,0.0
+IRF2BP family,3,1,74.081,65.164,0.0
+Podoplanin family,6,1,74.058,67.096,0.0
+POU transcription factor family,17,4,73.876,74.744,1.0
+SRCIN1 family,3,1,73.32,65.442,0.0
+NBPF family,5,1,73.302,73.973,0.0
+Nav/unc-53 family,23,3,73.04,69.296,0.0
+Smoothelin family,4,1,72.98,72.721,0.0
+Multiplexin collagen family,3,1,72.976,74.307,0.0
+SHANK family,7,2,72.883,74.531,0.0
+BCL7 family,4,1,72.841,77.972,0.0
+RRM DAZ family,8,2,72.769,75.823,0.0
+RRM RBM42 family,4,1,72.697,73.048,0.0
+ENTREP family,7,2,72.646,71.56,0.0
+RNF12 family,3,1,72.644,73.58,0.0
+Shisa family,11,3,72.2,71.083,0.0
+Aggrecan/versican proteoglycan family,9,2,72.03,66.8,0.0
+Caprin family,12,2,71.916,71.489,0.0
+DMRT family,6,2,71.711,72.943,1.0
+EGR C2H2-type zinc-finger protein family,8,1,71.522,68.97,1.0
+Msl-1 family,3,1,71.498,76.65,0.0
+ARID5B family,3,1,71.465,61.21,1.0
+CCDC181 family,3,1,71.26,76.088,0.0
+NASP family,4,1,71.231,67.513,0.0
+TACC family,16,2,71.212,62.88,0.0
+ZNRF3 family,4,1,71.21,70.32,0.0
+CAMSAP1 family,6,2,71.202,72.964,0.0
+RRM CPSF6/7 family,6,2,71.183,71.823,0.0
+AKAP95 family,3,1,70.962,75.25,1.0
+CHAF1A family,3,1,70.628,69.8,0.0
+RNA polymerase II subunit 5-mediating protein family,4,1,70.485,71.159,0.0
+PBTF family,3,1,70.42,70.738,1.0
+GCF family,8,2,70.242,68.047,0.0
+Ena/VASP family,8,2,70.106,68.627,0.0
+Mediator complex subunit 8 family,3,1,69.767,78.355,0.0
+MTSS family,4,1,69.617,77.0,0.0
+GOLGA6 family,3,1,69.538,64.891,0.0
+HNF1 homeobox family,12,2,69.361,67.587,1.0
+DACH/dachshund family,8,2,68.999,69.346,1.0
+RENT3 family,3,1,68.849,77.711,0.0
+RRM NELF-E family,3,1,68.684,67.978,0.0
+PX domain-containing GAP family,7,2,68.454,58.556,0.0
+FAM13 family,13,3,68.231,73.97,0.0
+WD repeat AMBRA1 family,6,1,67.973,68.468,0.0
+Glycophorin-C family,3,1,67.89,68.135,0.0
+PAR3 family,17,2,67.846,66.015,0.0
+MDM2/MDM4 family,16,2,67.554,60.364,0.0
+SnRNP SmB/SmN family,3,1,67.5,68.915,0.0
+COLQ family,8,1,67.438,78.846,0.0
+Odd C2H2-type zinc-finger protein family,3,1,67.436,63.95,1.0
+TPD52 family,23,4,67.429,61.833,0.0
+Angiomotin family,4,1,67.415,67.429,0.0
+Paired homeobox family,28,6,67.331,67.92,1.0
+Neuregulin family,23,3,66.824,62.671,0.0
+BANP/SMAR1 family,7,1,66.738,65.842,0.0
+BET family,12,3,66.654,68.531,0.0
+DNAAF1 family,3,1,66.621,64.19,0.0
+NUP58 family,3,1,66.44,64.435,0.0
+ZC3H14 family,10,1,66.384,56.275,0.0
+LAP (LRR and PDZ) protein family,15,3,66.324,59.524,0.0
+IWS1 family,3,1,65.686,65.939,0.0
+CEP43 family,3,1,65.664,76.505,0.0
+NSG family,3,1,65.438,76.382,0.0
+KHDC4 family,4,1,65.401,63.718,0.0
+Milton family,3,1,65.306,61.341,0.0
+EAF6 family,4,1,65.275,65.659,0.0
+Lin-54 family,8,2,65.265,62.785,0.625
+NFYC/HAP5 subunit family,7,1,65.254,66.877,1.0
+IFT43 family,4,1,65.246,71.926,0.0
+ATOS family,6,2,65.102,60.13,0.0
+CAS family,17,4,65.051,64.122,0.0
+Endosulfine family,9,1,64.964,74.287,0.0
+TAF1 family,15,1,64.868,64.679,0.0
+LZTS family,7,1,64.804,73.516,0.0
+SH3PXD2 family,3,1,64.784,65.447,0.0
+NRF1/Ewg family,4,1,64.647,63.406,1.0
+XPF family,3,1,64.484,43.355,0.0
+RRM HNRPC family,7,2,64.4,61.058,0.0
+Eutherian X-chromosome-specific Armcx family,3,1,64.368,70.625,0.0
+SPAG11 family,9,2,63.717,66.806,0.0
+NSMF family,6,1,63.682,69.336,0.0
+SPACA6 family,3,1,63.507,44.077,0.0
+MRAP family,4,1,63.187,65.907,0.0
+SPT20 family,3,1,63.009,62.383,0.0
+SPATA6 family,3,1,62.5,45.085,0.0
+TALE/MEIS homeobox family,11,2,62.418,61.663,1.0
+SPATS2 family,4,1,62.411,61.809,0.0
+MAX family,6,1,62.376,71.171,1.0
+NFRKB family,3,1,62.327,62.482,0.0
+Glycosyltransferase 28 family,4,1,62.235,47.968,0.0
+FNIP family,3,1,61.951,58.694,0.0
+Mitochondrion-specific ribosomal protein mL52 family,4,1,61.767,55.566,0.0
+NICOL family,3,1,61.719,57.945,0.0
+Endothelin/sarafotoxin family,3,1,61.644,55.676,0.0
+KHDRBS family,3,1,61.625,62.923,0.0
+Shugoshin family,10,2,61.455,63.154,0.0
+Requiem/DPF family,8,2,61.264,61.141,1.0
+Ikaros C2H2-type zinc-finger protein family,32,3,60.952,61.774,1.0
+Parathyroid hormone family,3,1,60.452,62.32,0.0
+JHDM2 histone demethylase family,6,2,60.393,62.413,0.0
+BRAG family,6,2,60.34,67.401,0.0
+SPAG8 family,3,1,60.329,57.769,0.0
+Bcl-2 family,43,7,60.194,61.101,0.0
+EEIG family,3,1,60.156,72.935,0.0
+AEBP2/jing C2H2-type zinc-finger family,3,1,60.155,54.659,1.0
+Eukaryotic initiation factor 4G family,12,2,60.126,62.293,0.0
+EIF-3 subunit J family,3,1,60.078,62.9,0.0
+POC5 family,3,1,60.0,55.142,0.0
+DAXX family,5,1,59.859,59.717,0.0
+Motilin family,9,2,59.829,73.508,0.0
+CTF/NF-I family,21,4,59.783,58.858,1.0
+WAL family,8,2,59.686,58.875,1.0
+MTCL family,4,1,59.592,63.664,0.0
+HAUS6 family,3,1,59.581,50.012,0.0
+SHFL family,4,1,59.387,57.109,0.0
+TMEM134/TMEM230 family,3,1,59.375,59.136,0.0
+CEP85 family,9,2,59.255,56.438,0.0
+Nucleoporin GLFG family,6,1,59.073,62.917,0.0
+CAMTA family,10,2,58.958,66.412,1.0
+CNOT2/3/5 family,5,1,58.776,47.592,0.0
+GORASP family,6,2,58.638,51.589,0.0
+Paxillin family,4,1,58.5,55.365,0.0
+FAM161 family,3,1,58.485,56.973,0.0
+GOLGA8 family,6,2,58.473,63.196,0.0
+TOR1AIP family,4,1,58.355,59.905,0.0
+ZXD family,3,1,58.169,58.628,1.0
+Folate receptor family,3,1,58.159,58.726,0.0
+RRM Spen family,4,1,58.12,58.137,0.0
+DONSON family,3,1,58.113,50.129,0.0
+SMAUG family,3,1,58.078,62.373,0.0
+VWA-containing collagen family,3,1,57.778,56.469,0.0
+MPI phosphatase family,8,2,57.397,56.2,0.0
+ASPP family,3,1,57.358,57.917,0.0
+Fibril-associated collagens with interrupted helices (FACIT) family,15,5,57.338,51.332,0.0
+WAPL family,3,1,57.131,57.225,0.0
+ZNF598/HEL2 family,4,1,56.936,67.642,0.0
+Troponin T family,22,3,56.718,55.857,0.0
+TGF-beta family,8,2,56.655,69.319,0.0
+TMEM237 family,5,1,56.618,54.524,0.0
+NAB family,3,1,56.616,56.134,0.0
+WWC family,7,1,56.332,54.813,0.0
+Calponin family,3,1,56.25,54.395,0.0
+CNKSR family,7,2,56.062,55.118,0.0
+CENP-U/AME1 family,3,1,55.981,41.608,0.0
+CC2D1 family,5,1,55.634,49.458,0.0
+CUT homeobox family,7,1,55.625,49.604,1.0
+JADE family,6,2,55.605,46.597,0.0
+SFR1/MEI5 family,3,1,55.603,52.404,0.0
+PTEN phosphatase protein family,15,4,55.564,40.652,0.0
+Insulin family,7,2,55.556,55.987,0.0
+FXYD family,5,1,55.556,59.175,0.0
+ENTR1 family,4,1,55.553,55.633,0.0
+ATPase C chain family,3,1,55.414,56.3,0.0
+CD164 family,5,1,55.33,59.858,0.0
+Lipin family,7,1,55.043,57.604,0.0
+Myotilin/palladin family,9,1,54.973,50.083,0.0
+CCPG1 family,5,1,54.954,55.529,0.0
+Histone deacetylase family,34,5,54.926,43.211,0.0
+CBFA2T family,15,3,54.797,56.535,0.0
+MRL family,9,1,54.766,56.908,0.0
+CTCF zinc-finger protein family,11,1,54.751,45.38,1.0
+ANP32 family,3,1,54.626,51.592,0.0
+ELYS family,3,1,54.593,54.62,1.0
+Lunapark family,4,1,54.591,60.087,0.0
+OCIAD1 family,4,1,54.583,56.987,0.0
+RIMBP family,6,2,54.538,49.209,0.0
+OXR1 family,15,2,54.47,43.894,0.0
+Isthmin family,5,1,54.466,69.22,0.0
+FAM32 family,3,1,54.464,55.128,0.0
+TASOR family,4,1,54.39,54.921,0.0
+CCDC80 family,3,1,54.318,69.369,0.0
+MVB12 family,3,1,54.086,41.33,0.0
+Apolipoprotein L family,9,3,54.079,44.54,0.0
+DMTF1 family,5,1,54.044,55.351,1.0
+SMARCC family,3,1,53.993,54.421,0.0
+HAUS8 family,3,1,53.545,50.921,0.0
+ABI family,16,2,53.251,54.208,0.0
+OS-9 family,8,1,53.061,54.205,0.0
+TMEM131 family,5,1,53.043,55.466,0.0
+DNA repair metallo-beta-lactamase (DRMBL) family,4,1,52.902,45.326,0.0
+RRM CPEB family,15,3,52.847,52.148,0.267
+ARS2 family,5,1,52.8,53.212,0.0
+PACS family,3,1,52.756,52.569,0.0
+GOLM family,4,1,52.718,41.058,0.0
+AP-2 family,4,1,52.642,53.971,1.0
+ETS family,47,10,52.632,50.368,1.0
+Chloride channel MCLC family,4,1,52.607,54.383,0.0
+VOPP1/ECOP family,4,1,52.416,52.917,0.0
+FAM124 family,3,1,52.405,40.973,0.0
+Villin/gelsolin family,15,4,52.237,38.217,0.0
+JIP scaffold family,10,2,52.213,55.092,0.0
+MFAP family,3,1,52.198,49.265,0.0
+Prickle / espinas / testin family,3,1,52.035,50.972,0.0
+FAM135 family,8,2,51.951,52.389,0.0
+Shootin family,8,1,51.865,55.17,0.0
+E2F/DP family,17,4,51.862,49.338,1.0
+CAVIN family,3,1,51.795,49.396,0.0
+Alpha-casein family,4,1,51.761,51.661,0.0
+FKBP-type PPIase family,3,1,51.696,51.978,0.0
+LARP family,9,1,51.613,51.615,0.0
+SCC2/Nipped-B family,3,1,51.576,67.085,0.0
+SREBP family,6,1,51.553,61.297,1.0
+PROTOR family,9,2,51.536,53.823,0.0
+TOM1 family,12,3,51.368,52.196,0.0
+TAF7 family,3,1,51.33,52.416,0.0
+Peptidase C48 family,5,1,51.321,45.342,0.0
+Nucleosome assembly protein (NAP) family,7,2,51.119,41.516,0.0
+TIAM family,5,1,50.636,47.219,0.0
+Synaptotagmin family,21,4,50.602,52.045,0.0
+DOK family,7,2,50.403,43.292,0.0
+PICALM/SNAP91 family,9,2,50.388,48.538,0.0
+HAD-like hydrolase superfamily,26,7,50.117,36.993,0.0
+SEC2 family,8,1,50.104,51.801,0.0
+Splicing factor SR family,50,14,50.058,48.399,0.0
+Inositol phosphokinase (IPK) family,6,1,50.0,50.0,0.0
+PA-phosphatase related phosphoesterase family,19,5,49.913,41.804,0.0
+Muscleblind family,15,3,49.485,52.467,0.2
+RIPOR family,4,1,49.47,49.51,0.0
+ANKLE2 family,3,1,49.467,55.134,0.0
+Class V-like SAM-binding methyltransferase superfamily,98,24,49.46,49.926,0.398
+Mediator complex subunit 25 family,7,2,49.433,43.044,0.0
+EXD1 family,3,1,49.416,62.393,0.0
+IST1 family,6,1,49.412,53.433,0.0
+CoREST family,4,1,49.389,52.702,0.0
+TEX28 family,4,1,49.332,49.973,0.0
+CND2 H2 (condensin-2 subunit 2) family,4,1,49.298,53.455,0.0
+Kazrin family,5,1,49.169,50.468,0.0
+TSC-22/Dip/Bun family,8,2,49.168,60.193,0.625
+P53 family,33,3,49.153,49.148,1.0
+PAT1 family,4,1,49.142,48.985,0.0
+Beta-catenin family,32,1,49.055,43.173,0.0
+Cytospin-A family,5,1,49.037,48.5,0.0
+EFCAB4 family,3,1,48.98,51.206,0.0
+Cytochrome b5 family,3,1,48.98,37.471,0.0
+CEP131 family,3,1,48.846,49.311,0.0
+LARP7 family,3,1,48.797,38.597,0.0
+CD300 family,15,3,48.77,52.55,0.0
+XPC family,3,1,48.617,65.08,0.0
+TMEM255 family,4,1,48.611,47.875,0.0
+Peptidase C85 family,5,1,48.485,53.33,0.0
+Lst-2 family,8,1,48.35,32.086,0.0
+PRPF40 family,8,2,48.315,61.222,0.0
+ABP1 family,6,1,48.138,50.513,0.0
+Flagellar radial spoke RSP4/6 family,3,1,48.045,51.428,0.0
+FAM178 family,6,2,47.948,51.669,0.0
+TALE/PBX homeobox family,8,2,47.859,43.092,1.0
+POTE family,6,2,47.65,46.346,0.0
+TAF8 family,3,1,47.588,48.336,0.0
+SKI family,8,2,47.483,53.395,1.0
+Spire family,9,2,47.428,47.37,0.0
+Stoned B family,3,1,47.401,45.69,0.0
+CWF19 family,6,2,47.379,43.373,0.0
+ELL/occludin family,10,2,47.334,57.652,0.0
+TFIIB family,9,1,47.231,41.674,0.0
+ZSWIM8 family,5,1,46.931,48.58,0.0
+SNF2/RAD54 helicase family,64,15,46.855,45.58,0.047
+Anamorsin family,3,1,46.823,63.898,0.0
+GARIN family,3,1,46.802,56.749,0.0
+PRRC1 family,5,1,46.742,51.138,0.0
+Calcium channel beta subunit family,22,4,46.736,47.182,0.0
+CYYR1 family,6,1,46.672,41.579,0.0
+CDIP1/LITAF family,6,2,46.629,46.598,0.0
+Sesquipedalian family,4,1,46.606,48.303,0.0
+Nucleoplasmin family,3,1,46.599,47.525,0.0
+WD repeat striatin family,3,1,46.447,63.247,0.0
+DZIP C2H2-type zinc-finger protein family,3,1,46.344,43.726,1.0
+MZB1 family,5,1,46.341,42.36,0.0
+GAREM family,6,2,46.323,48.685,0.0
+Bridge-like lipid transfer protein family member 1 family,6,1,46.281,41.089,0.0
+CybS family,4,1,46.279,56.681,0.0
+H-rev107 family,3,1,46.237,47.154,0.0
+Crescerin family,6,2,46.199,32.861,0.0
+ATG13 family,5,1,46.173,46.487,0.0
+NSFL1C family,4,1,46.129,45.246,0.0
+NudE family,3,1,46.087,46.233,0.0
+Tumor necrosis factor family,22,5,46.077,48.271,0.0
+SCM family,12,3,45.964,46.068,0.75
+NK-3 homeobox family,5,1,45.946,45.396,1.0
+APP family,17,2,45.902,45.688,0.0
+DIXDC1 family,4,1,45.895,39.162,0.0
+Beta/gamma-crystallin family,6,2,45.812,39.215,0.0
+SDE2 family,3,1,45.786,48.844,0.0
+BCAS3 family,6,1,45.785,47.025,0.0
+PWWP3A family,3,1,45.775,48.537,0.0
+Small heat shock protein (HSP20) family,3,1,45.714,62.689,0.0
+Unc-80 family,7,1,45.455,43.955,0.0
+GAPVD1 family,6,1,45.192,45.264,0.0
+SPT6 family,3,1,45.138,45.198,0.0
+CELF/BRUNOL family,24,5,45.08,45.762,0.0
+MIA/OTOR family,16,2,45.072,51.4,0.0
+TBRG1 family,3,1,45.0,43.551,0.0
+CHFR family,5,1,44.939,43.06,0.0
+Hyccin family,3,1,44.914,58.726,0.0
+Anion channel-forming bestrophin (TC 1.A.46) family,8,2,44.873,48.292,0.0
+CCM2 family,7,2,44.731,43.303,0.0
+YIP1 family,8,2,44.693,59.087,0.0
+SOSS-B family,3,1,44.608,48.203,0.0
+UFD1 family,3,1,44.606,45.533,0.0
+Pecanex family,12,3,44.425,44.656,0.0
+Gemin-2 family,5,1,44.4,49.675,0.0
+Eukaryotic ribosomal protein eL28 family,5,1,44.172,63.737,0.0
+WD repeat Groucho/TLE family,14,3,44.091,43.646,0.0
+SCOC family,4,1,44.067,55.845,0.0
+GPSM family,4,1,43.797,50.564,0.0
+CEP41 family,4,1,43.719,34.058,0.0
+LETM1 family,3,1,43.701,40.48,0.0
+Liprin family,19,4,43.685,42.593,0.0
+NF-kappa-B inhibitor family,3,1,43.656,32.219,0.0
+SAPS family,12,2,43.619,43.605,0.0
+FAM221 family,6,2,43.535,42.657,0.0
+AlkB family,10,3,43.383,35.25,0.0
+Mediator complex subunit 15 family,3,1,43.316,41.548,0.0
+Sarcoglycan alpha/epsilon family,3,1,43.249,40.13,0.0
+TANC family,4,1,43.242,42.968,0.0
+ANKRD36 family,11,3,43.016,39.197,0.0
+PPase class C family,12,2,42.979,55.153,0.0
+CCDC149 family,6,1,42.911,39.442,0.0
+ASCC2 family,3,1,42.668,35.411,0.0
+DNA polymerase type-B-like family,11,2,42.657,40.494,0.0
+FHIP family,3,1,42.596,43.265,0.0
+FAM83 family,3,1,42.507,42.261,0.0
+SEC23/SEC24 family,3,1,42.35,42.274,0.0
+NEMF family,5,1,42.275,46.418,0.0
+LRRFIP family,9,2,42.164,49.187,0.0
+CEP78 family,4,1,42.098,42.084,0.0
+TUB family,3,1,42.081,59.869,0.0
+Acetyltransferase ATAT1 family,7,1,42.042,44.77,0.0
+JHDM1 histone demethylase family,15,3,41.96,45.07,0.667
+NFX1 family,3,1,41.897,40.416,1.0
+EPS8 family,10,3,41.826,42.232,0.0
+Clathrin light chain family,5,1,41.739,42.144,0.0
+RCAN family,10,2,41.739,56.661,0.0
+Cytochrome c oxidase subunit 6B family,3,1,41.6,30.641,0.0
+MAPRE family,5,1,41.587,41.318,0.0
+UTX family,5,1,41.371,41.27,0.0
+MADD family,8,1,41.099,41.041,0.0
+Gfa family,3,1,41.091,60.511,0.0
+ARGLU1 family,3,1,41.026,36.556,0.0
+SCF family,3,1,41.026,40.79,0.0
+RFX family,13,4,40.816,44.738,1.0
+TTC14 family,3,1,40.735,34.476,0.0
+PIAS family,6,2,40.721,37.608,0.0
+WD repeat SCAP family,4,1,40.647,34.229,0.0
+NGF-beta family,5,1,40.458,42.619,0.0
+Translokin family,5,1,40.326,40.535,0.0
+Type-III (or lambda) interferon family,4,1,40.226,35.38,0.0
+EURL family,3,1,40.203,44.442,0.0
+Calreticulin family,3,1,40.203,40.449,0.0
+FILIP1 family,10,2,40.046,40.846,0.0
+Rad9 family,5,1,40.0,43.229,0.0
+ERI2 family,4,1,39.917,37.617,0.0
+NECAP family,4,1,39.897,30.497,0.0
+DP1 family,4,1,39.816,51.376,0.0
+TAF6 family,4,1,39.809,40.819,0.0
+Mask family,6,1,39.797,38.378,0.0
+Krueppel C2H2-type zinc-finger protein family,369,101,39.769,42.778,0.992
+NAC-beta family,3,1,39.744,53.543,0.0
+DNA polymerase type-Y family,11,2,39.655,30.322,0.0
+XPG/RAD2 endonuclease family,3,1,39.655,43.093,0.0
+ECSIT family,4,1,39.625,36.154,0.0
+SCARA5 family,4,1,39.543,42.566,0.0
+Pannexin family,3,1,39.502,48.035,0.0
+GASK family,3,1,39.499,59.593,0.0
+CCDC144 family,3,1,39.428,34.185,0.0
+HRD1 family,3,1,39.384,40.324,0.0
+V-ATPase e1/e2 subunit family,4,1,39.317,35.817,0.0
+Tomoregulin family,3,1,39.305,41.709,0.0
+TAFA family,3,1,39.2,46.4,0.0
+P23/wos2 family,7,2,39.157,58.635,0.0
+R-spondin family,6,2,39.134,38.313,0.0
+PpiC/parvulin rotamase family,3,1,39.103,37.733,0.0
+Poly(ADP-ribose) glycohydrolase family,5,1,39.055,26.346,0.0
+Luc7 family,6,2,38.979,37.904,0.0
+5'-nucleotidase type 3 family,4,1,38.948,34.614,0.0
+RADIL family,4,1,38.905,45.74,0.0
+OXA1/ALB3/YidC family,7,2,38.783,38.21,0.0
+Uroplakin-3 family,3,1,38.75,36.909,0.0
+UPL family,8,2,38.729,40.9,0.0
+CEP152 family,4,1,38.648,38.024,0.0
+HIN-200 family,11,2,38.612,40.885,0.0
+KIAA1841 family,4,1,38.529,35.469,0.0
+CCDC88 family,14,3,38.432,53.247,0.0
+Dystrophin family,24,2,38.363,40.406,0.0
+RANBP9/10 family,6,2,38.298,37.773,0.0
+Activator 1 small subunits family,3,1,38.154,36.69,0.0
+FMR1 family,14,2,38.048,35.756,0.0
+Peroxisomal targeting signal receptor family,12,2,37.939,35.315,0.0
+Intermediate filament family,36,9,37.844,41.851,0.0
+GAS2 family,4,1,37.812,41.819,0.0
+RILPL family,3,1,37.717,36.411,0.0
+MINDY deubiquitinase family,4,1,37.679,38.163,0.0
+CHCHD7 family,5,1,37.647,32.981,0.0
+Unkempt family,6,1,37.642,37.987,0.0
+RAD23 family,3,1,37.569,37.333,0.0
+FCHO family,6,2,37.535,35.672,0.0
+IML1 family,8,1,37.448,37.562,0.0
+CLASP family,8,2,37.43,39.056,0.0
+CARMIL family,7,2,37.33,37.749,0.0
+Calcium channel alpha-1 subunit (TC 1.A.1.11) family,98,8,37.267,39.046,0.0
+ERCC1/RAD10/SWI10 family,4,1,37.259,33.152,0.0
+RMD1/sif2 family,3,1,37.194,45.731,0.0
+KCTD3 family,3,1,37.178,57.944,0.0
+ATG9 family,6,2,37.125,40.333,0.0
+Potassium channel family,53,11,37.097,36.424,0.0
+EF-1-beta/EF-1-delta family,4,1,37.068,35.615,0.0
+Aldolase class II family,15,2,36.968,37.108,0.0
+RICTOR family,3,1,36.885,28.922,0.0
+CutA family,3,1,36.872,35.788,0.0
+Ribonuclease III family,4,1,36.798,36.967,0.0
+Sulfotransferase 6 family,4,1,36.761,36.541,0.0
+TRM44 family,3,1,36.74,36.101,0.0
+Centaurin gamma-like family,9,2,36.686,36.262,0.0
+ATRIP family,4,1,36.607,36.472,0.0
+Chordin family,5,1,36.571,32.199,0.0
+Folliculin family,3,1,36.55,44.9,0.0
+Vezatin family,4,1,36.544,43.272,0.0
+RNase PH family,4,1,36.542,36.603,0.0
+XRCC4-XLF family,3,1,36.527,35.015,0.0
+RRM half pint family,6,1,36.446,36.088,0.0
+Constitutive coactivator of PPAR-gamma family,8,2,36.412,37.844,0.0
+Polycomblike family,7,2,36.232,39.074,1.0
+Bacterial ribosomal protein bS18 family,3,1,36.224,41.94,0.0
+Frataxin family,3,1,36.224,38.794,0.0
+CBP3 family,5,1,36.12,31.656,0.0
+ATG2 family,4,1,36.049,38.185,0.0
+RUTBC family,7,2,36.048,41.645,0.571
+UPF0235 family,3,1,35.948,39.491,0.0
+LDB family,6,2,35.921,35.47,0.0
+DNAAF3 family,5,1,35.884,45.717,0.0
+Quaking family,6,1,35.827,36.75,0.0
+PMEL/NMB family,5,1,35.778,34.977,0.0
+Mediator complex subunit 6 family,3,1,35.573,23.917,0.0
+CCDC40 family,5,1,35.437,36.527,0.0
+TRM6/GCD10 family,4,1,35.322,35.979,0.0
+TRNA-intron endonuclease family,5,1,35.308,34.02,0.0
+Peptidase S1C family,4,1,35.232,35.325,0.0
+OSBP family,36,7,35.227,36.584,0.0
+Nephronectin family,6,1,35.073,34.86,0.0
+Crooked-neck family,5,1,35.024,57.671,0.0
+SBNO family,4,1,35.009,36.246,0.0
+USE1 family,3,1,34.815,32.926,0.0
+Astrotactin family,8,2,34.729,30.227,0.0
+LTBP family,9,2,34.72,31.285,0.0
+PtdIns transfer protein family,9,3,34.702,24.259,0.0
+PA-PLA1 family,4,1,34.684,32.421,0.0
+BABAM1 family,3,1,34.65,52.673,0.0
+ACDP family,6,2,34.609,36.029,0.0
+OFD1 family,3,1,34.585,23.462,0.0
+COLEC10/COLEC11 family,10,1,34.553,32.966,0.0
+Inositol 1,10,3,34.534,28.309,0.0
+Papilin family,6,1,34.421,39.206,0.0
+GGA protein family,10,2,34.258,35.514,0.0
+WD repeat CDC20/Fizzy family,8,2,34.191,41.994,0.0
+TMEM132 family,7,2,34.18,29.93,0.0
+POTE family; Actin family,3,1,34.043,36.223,0.0
+HSF family,3,1,33.99,39.288,1.0
+Histone H2B family,3,1,33.987,35.665,0.0
+Ced-6 family,4,1,33.922,30.269,0.0
+SIN1 family,6,1,33.862,30.451,0.0
+FNBP1 family,15,3,33.757,35.186,0.0
+UPF0585 family,6,1,33.744,28.902,0.0
+ADIP family,3,1,33.731,34.201,0.0
+ECD family,3,1,33.696,33.896,0.0
+Mediator complex subunit 12 family,7,2,33.675,34.049,0.0
+Metastasis-associated protein family,3,1,33.566,24.636,0.0
+PDGF/VEGF growth factor family,25,3,33.493,40.165,0.0
+Grh/CP2 family,12,3,33.47,36.636,1.0
+GDNFR family,6,2,33.43,29.705,0.0
+CLEC16A/gop-1 family,3,1,33.333,51.95,0.0
+Semaphorin family,18,4,33.292,31.398,0.0
+Chemokine-like factor family,31,4,33.184,45.393,0.0
+EMC4 family,3,1,33.088,34.569,0.0
+LAS1 family,4,1,33.085,34.153,0.0
+WD repeat NOL10/ENP2 family,4,1,32.974,25.186,0.0
+ODA1/DCC2 family,3,1,32.836,32.288,0.0
+Caveolin family,3,1,32.716,32.578,0.0
+Calcium channel flower family,4,1,32.71,34.343,0.0
+RING-box family,4,1,32.646,34.997,0.0
+MAGUK family,54,11,32.577,29.08,0.0
+DNA mismatch repair MutL/HexB family,11,3,32.511,26.842,0.0
+RPAP3 family,3,1,32.488,31.264,0.0
+Schlafen family,4,1,32.471,34.711,0.0
+Spindly family,3,1,32.448,31.502,0.0
+VHL family,3,1,32.394,24.364,0.0
+Ephrin family,3,1,32.338,32.242,0.0
+Lin-9 family,3,1,32.288,31.204,0.0
+VPS37 family,3,1,32.242,33.98,0.0
+Peptidyl-alpha-hydroxyglycine alpha-amidating lyase family; Copper type II ascorbate-dependent monooxygenase family,6,1,32.215,31.855,0.0
+Inturned family,4,1,32.212,32.461,0.0
+Dynein intermediate chain family,11,2,32.166,31.932,0.0
+MYST (SAS/MOZ) family,12,3,32.029,40.878,0.417
+PC-esterase family,4,1,31.894,26.059,0.0
+ACTMAP family,3,1,31.844,50.69,0.0
+Cyclin family,42,12,31.839,35.445,0.0
+HIBADH-related family,5,1,31.826,30.565,1.0
+TMCO1 family,3,1,31.799,25.838,0.0
+Glutamine synthetase family,3,1,31.731,48.429,0.0
+Seipin family,3,1,31.658,26.801,0.0
+Peptidase A22A family,10,2,31.612,30.215,0.0
+IRF family,15,3,31.412,29.008,1.0
+RUNDC3 family,9,2,31.36,31.982,0.0
+WD repeat SEC31 family,15,2,31.329,25.537,0.0
+Reduced folate carrier (RFC) transporter (TC 2.A.48) family,3,1,31.303,27.874,0.0
+NDK family,7,2,31.212,23.126,0.0
+Leukocyte receptor complex/polymeric immunoglobulin receptor (PIR/LRC) family,7,1,31.119,23.447,0.0
+DIP2 family,6,1,31.069,30.758,0.0
+UPRTase family,3,1,31.068,32.704,0.0
+Class IV-like SAM-binding methyltransferase superfamily,5,1,31.013,28.336,0.0
+Nuclear hormone receptor family,132,26,30.997,33.626,1.0
+SAYP family,3,1,30.924,27.235,0.0
+Intercrine beta (chemokine CC) family,13,2,30.882,34.728,0.0
+Peroxiredoxin family,4,1,30.844,26.422,0.0
+RPGRIP1 family,6,1,30.82,31.068,0.0
+FAM3 family,6,2,30.801,27.417,0.0
+2H phosphoesterase superfamily,3,1,30.769,40.425,0.0
+GRB7/10/14 family,8,2,30.678,27.809,0.0
+SEZ6 family,17,3,30.655,30.72,0.0
+SNF7 family,4,1,30.62,37.144,0.0
+Helicase family,26,6,30.475,33.596,0.0
+ATP-dependent DNA ligase family,7,2,30.453,28.105,0.0
+MTUS1 family,10,2,30.452,44.584,0.0
+Unc-79 family,3,1,30.335,30.961,0.0
+RRF family,8,1,30.332,27.053,0.0
+GTP cyclohydrolase I family,4,1,30.32,29.755,0.0
+Smac/DIABLO protein family,3,1,30.256,26.959,0.0
+TVP38/TMEM64 family,4,1,30.054,30.659,0.0
+JHDM3 histone demethylase family,4,1,30.032,29.301,0.0
+COQ10 family,3,1,30.0,30.908,0.0
+PRP31 family,4,1,29.982,27.75,0.0
+CPSF4/YTH1 family,3,1,29.918,32.117,0.0
+NTE family,9,2,29.917,31.679,0.0
+WD repeat WDR90/POC16 family,5,1,29.889,24.739,0.0
+Type II topoisomerase family,4,1,29.866,29.785,0.0
+Kinesin light chain family,18,3,29.75,32.704,0.0
+FPG family,4,1,29.74,24.433,0.0
+ING family,16,3,29.668,31.613,0.0
+Perilipin family,4,1,29.585,22.396,0.0
+Tubulin--tyrosine ligase family,13,4,29.447,36.558,0.0
+Formin homology family,33,9,29.422,37.887,0.0
+WD repeat WDR91 family,3,1,29.403,32.071,0.0
+Voltage-gated proton channel (VPC) (TC 1.A.51) family,4,1,29.373,29.564,0.0
+Eukaryotic RPC9 RNA polymerase subunit family,4,1,29.309,44.047,0.0
+WD repeat WDR59 family,4,1,29.284,27.917,0.0
+Dynactin subunit 2 family,3,1,29.28,28.601,0.0
+Glycosyl hydrolase 33 family,3,1,29.234,28.14,0.0
+Replication factor A protein 2 family,3,1,29.137,33.808,0.0
+AAA ATPase family; Peptidase M41 family,3,1,29.05,29.634,0.0
+SMARCD family,3,1,29.02,28.639,0.0
+5'-3' exonuclease family,3,1,28.926,21.048,0.0
+Polyadenylate-binding protein type-1 family,3,1,28.882,28.968,0.0
+Universal ribosomal protein uS11 family,3,1,28.866,30.715,0.0
+Maelstrom family,3,1,28.802,50.544,0.0
+Sodium channel (TC 1.A.1.10) family,25,6,28.729,28.008,0.0
+UPF0359 family,3,1,28.686,23.402,0.0
+SUFU family,3,1,28.637,28.757,0.0
+ELP5 family,4,1,28.527,25.418,0.0
+Band 7/mec-2 family,9,2,28.463,19.395,0.0
+Phosducin family,3,1,28.455,22.088,0.0
+Plakin or cytolinker family,17,3,28.392,25.343,0.0
+Dwarfin/SMAD family,10,3,28.3,32.499,0.4
+Peptidase MATCAP family,3,1,28.238,27.72,0.0
+Glycosyltransferase 8 family,12,3,28.196,21.645,0.0
+MID49/MID51 family,3,1,28.172,51.535,0.0
+KCNMB (TC 8.A.14.1) family,5,1,28.159,27.353,0.0
+CFAP337 family,3,1,28.121,28.847,0.0
+Cyclic nucleotide-gated cation channel (TC 1.A.1.5) family,7,2,28.08,47.844,0.0
+PAF1 family,3,1,28.041,29.573,0.0
+GPR137 family,5,1,28.035,23.989,0.0
+CorA metal ion transporter (MIT) (TC 1.A.35) family,4,1,28.008,36.795,0.0
+MRE11/RAD32 family,3,1,27.989,27.081,0.0
+Myelin P0 protein family,8,2,27.933,32.502,0.0
+EIF-2B alpha/beta/delta subunits family,3,1,27.916,28.755,0.0
+Rad17/RAD24 family,4,1,27.871,27.253,0.0
+Anion exchanger (TC 2.A.31) family,54,9,27.869,29.158,0.0
+SCC3 family,3,1,27.763,28.58,0.0
+CREC family,21,2,27.723,30.551,0.0
+TFII-I family,14,3,27.714,25.064,1.0
+Dus family,3,1,27.692,24.036,0.0
+BRE1 family,3,1,27.685,26.41,0.0
+RRP12 family,3,1,27.67,27.697,0.0
+PIEZO (TC 1.A.75) family,4,1,27.387,24.071,0.0
+STK19 family,4,1,27.331,27.387,0.0
+MTURN family,4,1,27.138,23.014,0.0
+D-isomer specific 2-hydroxyacid dehydrogenase family,3,1,27.096,32.583,0.0
+Exonuclease superfamily,3,1,26.974,33.324,0.0
+MYZAP family,11,1,26.966,27.726,0.0
+EVA1 family,3,1,26.941,51.233,0.0
+BicD family,4,1,26.896,22.448,0.0
+VPRBP/DCAF1 family,3,1,26.808,26.448,0.0
+Integrator subunit 6 family,3,1,26.773,20.499,0.0
+GSG1 family,12,2,26.724,25.707,0.0
+YIF1 family,6,1,26.718,28.181,0.0
+Eukaryotic/archaeal RNase P protein component 4 family,4,1,26.715,25.298,0.0
+Calycin superfamily,13,4,26.712,31.646,0.0
+Peptidase S54 family,6,2,26.707,28.014,0.0
+NOP16 family,3,1,26.695,36.197,0.0
+GREB1 family,7,2,26.68,32.696,0.0
+MON1/SAND family,5,1,26.667,23.704,0.0
+EPO/TPO family,3,1,26.361,27.453,0.0
+MICOS complex subunit Mic60 family,4,1,26.327,26.262,0.0
+RPAP1 family,3,1,26.131,17.937,0.0
+Nitroreductase family,6,1,26.004,23.657,0.0
+MAP65/ASE1 family,4,1,25.988,25.149,0.0
+Phospholipid scramblase family,3,1,25.939,17.625,0.0
+BACURD family,3,1,25.862,27.037,0.0
+STRIP family,4,1,25.772,24.849,0.0
+IL-10 family,7,2,25.604,35.086,0.0
+BCP1 family,4,1,25.583,27.01,0.0
+ATR family,10,2,25.563,26.795,0.0
+2-oxoacid dehydrogenase family,3,1,25.549,26.982,0.0
+CALCOCO family,9,2,25.495,25.025,0.0
+ZP domain family,3,1,25.469,25.968,0.0
+Dynactin 150 kDa subunit family,6,1,25.465,25.68,0.0
+COP1 family,5,1,25.457,35.189,0.0
+ERICH6 family,3,1,25.443,21.853,0.0
+Sodium channel auxiliary subunit SCN4B (TC 8.A.17) family,3,1,25.439,27.592,0.0
+TMEM70 family,3,1,25.385,29.645,0.0
+Mical family,16,3,25.382,29.457,0.0
+Eukaryotic ribosomal protein eS24 family,4,1,25.282,28.291,0.0
+RRN3 family,4,1,25.226,24.036,0.0
+Peptidase M14 family,22,7,25.126,29.324,0.0
+Peptidase M24A family,3,1,25.105,24.778,0.0
+SFI1 family,7,1,25.04,24.25,0.0
+Beta-defensin family,3,1,25.0,41.667,0.0
+SVAP1 family,4,1,24.933,27.963,0.0
+Synaptojanin family; Inositol 1,7,2,24.867,25.293,0.0
+Protein kinase superfamily,921,203,24.699,28.7,0.0
+TDRD7 family,3,1,24.681,21.604,0.0
+LU7TM family,6,2,24.667,25.063,0.0
+Ligand-gated ion channel (TC 1.A.9) family,40,11,24.586,26.586,0.0
+Glycosyl hydrolase 84 family,4,1,24.534,25.635,0.0
+CAP family,3,1,24.528,17.296,0.0
+FAD-binding oxidoreductase/transferase type 4 family,3,1,24.43,19.533,0.0
+Adenosylhomocysteinase family,4,1,24.416,24.394,0.0
+Amiloride-sensitive sodium channel (TC 1.A.6) family,19,5,24.408,24.576,0.0
+PDK/BCKDK protein kinase family,3,1,24.384,21.738,0.0
+Arg-specific ADP-ribosyltransferase family,3,1,24.339,23.514,0.0
+WD repeat coronin family,7,2,24.046,16.188,0.0
+SMEK family,9,2,24.01,22.582,0.0
+UPF0696 family,3,1,23.973,20.033,0.0
+RIC1 family,3,1,23.963,19.97,0.0
+RRM NCBP2 family,3,1,23.913,26.783,0.0
+MEGF family,4,1,23.897,41.063,0.0
+Peptidase C19 family,86,22,23.845,29.967,0.0
+Glypican family,3,1,23.793,24.107,0.0
+Heparin-binding growth factors family,13,3,23.77,28.803,0.0
+NIPA family,3,1,23.765,19.984,0.0
+ZIP transporter (TC 2.A.5) family,14,4,23.757,25.54,0.0
+SLA2 family,3,1,23.722,22.472,0.0
+Deltex family,3,1,23.714,22.283,0.0
+CNOT10 family,6,1,23.68,23.657,0.0
+Universal ribosomal protein uL22 family,6,2,23.636,21.728,0.0
+Cation diffusion facilitator (CDF) transporter (TC 2.A.4) family,11,3,23.516,30.698,0.0
+TIM50 family,3,1,23.513,21.507,0.0
+GARNL3 family,5,1,23.512,29.451,0.0
+CLPTM1 family,3,1,23.511,20.617,0.0
+LDLR family,14,3,23.448,24.727,0.0
+RRM elav family,6,1,23.431,23.413,0.0
+LAMP family,6,2,23.42,26.162,0.0
+TMEM95 family,3,1,23.37,28.982,0.0
+Extended synaptotagmin family,5,1,23.248,26.537,0.0
+Homer family,8,2,23.231,17.381,0.0
+VMO1 family,4,1,23.22,23.756,0.0
+SMG8 family,3,1,23.167,22.44,0.0
+Cappuccino family,3,1,23.153,22.164,0.0
+Kinectin family,4,1,23.152,23.079,0.0
+TOG/XMAP215 family,3,1,23.149,23.388,0.0
+Glycoside-pentoside-hexuronide (GPH) cation symporter transporter (TC 2.A.2) family,7,2,23.142,28.421,0.0
+TOP6B-like family,4,1,23.138,23.005,0.0
+Complex I NDUFB8 subunit family,3,1,23.118,20.771,0.0
+WD repeat WDR81 family,6,1,23.027,22.519,0.0
+Ubiquitin conjugation factor E4 family,4,1,23.019,21.533,0.0
+NifU family,3,1,23.009,23.162,0.0
+MICU1 family,6,1,22.965,16.056,0.0
+RASGRP family,17,3,22.835,19.483,0.0
+JARID1 histone demethylase family,8,2,22.735,24.287,0.0
+TDRD1 family,4,1,22.71,18.806,0.0
+CIDE family,4,1,22.635,36.317,0.0
+Sulfatase-modifying factor family,10,2,22.617,23.442,0.0
+Reverse transcriptase family,4,1,22.516,22.347,0.0
+Vir family,4,1,22.484,23.389,0.0
+TMC family,14,4,22.314,22.323,0.0
+Nucleobase:cation symporter-2 (NCS2) (TC 2.A.40) family,6,2,22.314,19.187,0.0
+RMDN family,7,2,22.183,23.741,0.0
+SLC3A transporter family,4,1,22.153,20.576,0.0
+Battenin family,7,1,22.09,27.498,0.0
+TERB1 family,3,1,22.047,23.001,1.0
+Endonuclease V family,7,1,22.006,42.94,0.0
+FAM76 family,8,2,21.974,24.784,0.0
+FNDC3 family,3,1,21.927,21.299,0.0
+CNF-like-inhibitor family,4,1,21.907,25.814,0.0
+TMEM41 family,3,1,21.875,23.503,0.0
+PCDP1 family,4,1,21.854,22.511,0.0
+Glutaminase family,3,1,21.824,47.576,0.0
+BBS4 family,3,1,21.822,21.831,0.0
+CTU2/NCS2 family,3,1,21.748,23.629,0.0
+GPN-loop GTPase family,8,2,21.745,19.871,0.0
+Lipid transport auxiliary protein 1 family,5,1,21.739,14.744,0.0
+CSTPP1 family,4,1,21.71,18.436,0.0
+KptA/TPT1 family,4,1,21.654,20.515,0.0
+Uridine kinase family,8,2,21.646,23.239,0.0
+Synaptobrevin family,9,3,21.6,19.695,0.0
+Eukaryotic diacylglycerol kinase family,17,4,21.545,17.487,0.0
+Pellino family,4,1,21.485,26.155,0.0
+Universal ribosomal protein uL11 family,3,1,21.354,14.853,0.0
+PDS5 family,5,1,21.352,29.149,0.0
+DNA glycosylase MPG family,4,1,21.331,20.73,0.0
+FAD-dependent oxidoreductase family,9,2,21.296,28.257,0.0
+Parvin family,8,2,21.287,38.852,0.0
+Transcription factor STAT family,6,2,21.281,21.62,1.0
+CCR4/nocturin family,3,1,21.271,18.633,0.0
+Repulsive guidance molecule (RGM) family,6,2,21.237,21.46,0.0
+STEEP1 family,3,1,21.171,21.655,0.0
+RAB6IP1 family,4,1,21.163,19.659,0.0
+SYCE family,3,1,21.053,21.907,0.0
+Type VI collagen family,8,2,21.004,23.689,0.0
+PPase family,5,1,20.984,23.253,0.0
+RNF8 family,3,1,20.982,14.142,0.0
+ITM2 family,3,1,20.974,20.259,0.0
+Apyrase family,3,1,20.948,19.636,0.0
+Neurexin family,12,3,20.796,36.495,0.0
+RNR ribonuclease family,9,2,20.791,27.068,0.0
+MS4A family,21,6,20.787,32.916,0.0
+TDD superfamily,3,1,20.724,20.837,0.0
+Nth/MutY family,9,2,20.709,21.459,0.0
+Mitochondrion-specific ribosomal protein mS25 family,3,1,20.69,40.23,0.0
+CFAP74 family,3,1,20.682,23.512,0.0
+Type I cytokine receptor family,79,16,20.64,26.21,0.0
+Glycosyltransferase 18 family,3,1,20.633,20.937,0.0
+Monovalent cation:proton antiporter 2 (CPA2) transporter (TC 2.A.37) family,3,1,20.611,20.405,0.0
+NCF2/NOXA1 family,7,2,20.582,22.552,0.0
+FAST protein kinase family,4,1,20.555,19.382,0.0
+SAP30 family,3,1,20.423,18.72,0.0
+CDP-alcohol phosphatidyltransferase class-II family,4,1,20.366,39.32,0.0
+Glycosyl hydrolase 99 family,3,1,20.35,19.183,0.0
+Sorting nexin family,30,9,20.284,24.954,0.0
+RBR family,21,5,20.273,24.542,0.143
+Folylpolyglutamate synthase family,4,1,20.241,21.328,0.0
+Nesprin family,28,3,20.166,21.951,0.0
+VPS10-related sortilin family,4,1,20.151,20.354,0.0
+Protein-tyrosine phosphatase family,192,44,20.085,27.277,0.0
+Plexin family,14,4,20.066,25.638,0.0
+CitM (TC 2.A.11) transporter family,3,1,20.025,21.292,0.0
+TDE1 family,8,2,20.007,20.017,0.0
+Universal ribosomal protein uL29 family,3,1,20.0,15.2,0.0
+G-protein coupled receptor 1 family,135,25,19.876,22.972,0.0
+DPH1/DPH2 family,7,2,19.865,25.085,0.0
+Nectin family,23,6,19.807,24.576,0.0
+ARB2A family,4,1,19.759,19.027,0.0
+GOSR2 family,3,1,19.718,13.239,0.0
+Nuclear import and ribosome assembly adapter family,3,1,19.697,19.014,0.0
+DOCK family,23,5,19.676,21.568,0.0
+DRC10 family,3,1,19.597,18.355,0.0
+TAF9 family,3,1,19.565,13.636,1.0
+DCK/DGK family,12,2,19.555,24.987,0.0
+ELP4 family,3,1,19.538,17.061,0.0
+UbiA prenyltransferase family,5,1,19.531,21.188,0.0
+SRP19 family,3,1,19.444,20.157,0.0
+Cyclic nucleotide phosphodiesterase family,85,14,19.374,24.566,0.0
+NDC1 family,6,1,19.298,18.011,0.0
+WD repeat PROPPIN family,9,2,19.266,15.279,0.0
+Type II cytokine receptor family,17,5,19.231,30.108,0.0
+Pseudouridine synthase RluA family,6,1,19.223,27.584,0.0
+Glycosyltransferase 31 family,7,2,19.221,17.084,0.0
+WD repeat EIF2A family,4,1,19.209,20.855,0.0
+PARI family,7,1,19.171,14.458,0.0
+Pyridoxamine 5'-phosphate oxidase family,4,1,19.145,38.883,0.0
+MCF2 family,19,3,19.135,18.812,0.0
+DUOXA family,3,1,19.128,25.677,0.0
+Integrator subunit 3 family,4,1,19.11,20.818,0.0
+TRAFAC class myosin-kinesin ATPase superfamily,146,34,19.08,20.958,0.0
+CDK5RAP3 family,4,1,19.0,22.3,0.0
+Heat shock protein 70 family,4,1,18.935,20.034,0.0
+TVP23 family,3,1,18.902,29.067,0.0
+CD200R family,4,1,18.834,19.495,0.0
+Protein disulfide isomerase family,8,2,18.8,20.37,0.0
+WD repeat fritz family,3,1,18.767,13.967,0.0
+NDRG family,20,4,18.74,18.332,0.0
+Tuftelin family,3,1,18.731,20.79,0.0
+VPS8 family,3,1,18.724,19.087,0.0
+RRM IMP/VICKZ family,6,1,18.662,15.295,0.0
+Histone H2A family,8,2,18.661,26.979,0.0
+Receptors of complement activation (RCA) family,14,3,18.64,23.555,0.0
+Polycystin family,25,5,18.634,20.537,0.0
+Ntn-hydrolase family,3,1,18.621,14.889,0.0
+Autoinducer-2 exporter (AI-2E) (TC 2.A.86) family,3,1,18.544,17.227,0.0
+Ribonucleoside diphosphate reductase small chain family,6,1,18.534,39.511,0.0
+UBR4 family,6,1,18.457,17.205,0.0
+ELO family,3,1,18.405,43.705,0.0
+Small leucine-rich proteoglycan (SLRP) family,13,3,18.4,22.447,0.0
+VPS54 family,5,1,18.325,13.934,0.0
+EMC6 family,5,1,18.182,20.443,0.0
+Themis family,10,2,18.173,16.116,0.0
+Synembryn family,8,2,18.12,18.366,0.0
+NALCN family,3,1,18.114,18.107,0.0
+WD repeat L(2)GL family,6,2,18.107,16.541,0.0
+TMEM8 family,3,1,18.008,22.658,0.0
+UFL1 family,3,1,17.97,18.824,0.0
+SINA (Seven in absentia) family,3,1,17.949,17.492,0.0
+Peptidase M10A family,10,3,17.932,22.409,0.0
+Hid-1 family,3,1,17.916,24.258,0.0
+Ependymin family,3,1,17.857,44.807,0.0
+Non-receptor class of the protein-tyrosine phosphatase family; Eukaryotic GTase family,4,1,17.779,17.421,0.0
+Organo anion transporter (TC 2.A.60) family,23,6,17.746,18.767,0.0
+Claudin family,6,2,17.701,19.785,0.0
+DEAD box helicase family,51,14,17.671,23.652,0.0
+CFAP65 family,4,1,17.632,22.257,0.0
+WD repeat RAPTOR family,3,1,17.603,14.665,0.0
+TRAFAC class OBG-HflX-like GTPase superfamily,9,3,17.571,15.348,0.0
+NAD kinase family,6,2,17.516,15.96,0.0
+NUP54 family,3,1,17.429,14.094,0.0
+CEP120 family,3,1,17.343,12.309,0.0
+SCAMP family,6,2,17.261,18.893,0.0
+MCTP family,10,2,17.23,26.438,0.0
+Recoverin family,22,4,17.227,16.929,0.136
+CCN family,5,1,17.213,22.917,0.0
+Endophilin family,10,3,17.177,19.472,0.0
+InsP3 receptor family,8,1,17.142,17.542,0.0
+NDUFAF6 family,3,1,17.117,27.744,0.0
+Arrestin family,5,1,17.102,16.522,0.0
+WD repeat ESC family,3,1,17.007,17.284,0.0
+ODR-4 family,4,1,16.936,15.04,0.0
+Neuropilin family,9,2,16.887,15.376,0.0
+ITIH family,11,3,16.879,16.834,0.0
+Tweety family,9,2,16.875,17.46,0.0
+RAD52 family,4,1,16.812,25.801,0.0
+Monovalent cation:proton antiporter 1 (CPA1) transporter (TC 2.A.36) family,7,2,16.795,26.999,0.0
+Mut-7 family,5,1,16.732,32.485,0.0
+Rotatin family,4,1,16.716,18.99,0.0
+NOS family,8,2,16.714,22.098,0.0
+CSN7/EIF3M family,3,1,16.667,18.964,0.0
+Transient receptor (TC 1.A.4) family,53,11,16.667,18.861,0.0
+Calsyntenin family,3,1,16.632,27.752,0.0
+WD repeat ATG16 family,8,2,16.632,17.448,0.0
+SLC12A transporter family,25,5,16.618,21.866,0.0
+BLOC1S5 family,3,1,16.578,14.92,0.0
+SLC35F solute transporter family,3,1,16.578,15.188,0.0
+Glycosyltransferase group 1 family,12,3,16.551,13.378,0.0
+Niban family,7,1,16.517,16.912,0.0
+ZC3H12 family,3,1,16.511,19.229,0.0
+TUBGCP family,9,3,16.505,21.597,0.0
+Phosphatidyl serine synthase family,3,1,16.49,14.953,0.0
+Peptidase A22B family,7,2,16.446,13.054,0.0
+CAF1 family,7,2,16.432,16.202,0.0
+IL-6 superfamily,3,1,16.425,16.52,0.0
+WD repeat DDB2/WDR76 family,5,1,16.387,15.638,0.0
+TCP11 family,7,1,16.383,17.227,0.0
+Multi antimicrobial extrusion (MATE) (TC 2.A.66.1) family,9,2,16.279,12.975,0.0
+MCMBP family,3,1,16.25,14.561,0.0
+PTCD2 family,3,1,16.237,16.713,0.0
+Dicarboxylate/amino acid:cation symporter (DAACS) (TC 2.A.23) family,6,2,16.19,17.586,0.0
+STARD3 family,3,1,16.18,22.765,0.0
+DMBT1 family,9,1,16.168,16.265,0.0
+ISY1 family,3,1,16.14,20.252,0.0
+Sidekick family,7,2,16.065,20.714,0.0
+TRAFAC class TrmE-Era-EngA-EngB-Septin-like GTPase superfamily,43,10,16.057,27.157,0.0
+Unc-5 family,3,1,16.033,18.031,0.0
+Natural cytotoxicity receptor (NCR) family,15,3,16.028,19.851,0.0
+CFAP91 family,7,1,15.906,27.921,0.0
+Cytidine and deoxycytidylate deaminase family,14,4,15.875,32.98,0.0
+Immunoglobulin superfamily,237,50,15.85,20.679,0.0
+ZCCHC4 family,3,1,15.789,15.135,0.0
+Methylthiotransferase family,9,2,15.779,20.42,0.0
+TPT transporter family,6,2,15.659,28.692,0.0
+Major facilitator superfamily,61,16,15.613,13.407,0.0
+Phosphoglycerate mutase family,7,2,15.6,12.8,0.0
+Serine esterase family,7,2,15.594,22.706,0.0
+Rab3-GAP catalytic subunit family,3,1,15.587,15.44,0.0
+Macoilin family,3,1,15.561,22.146,0.0
+MAD1 family,3,1,15.46,14.395,0.0
+Spartan family,3,1,15.459,28.165,0.0
+CRELD family,6,1,15.429,14.333,0.0
+HMG-CoA reductase family,3,1,15.329,15.348,0.0
+Glycosyltransferase 7 family,3,1,15.323,16.261,0.0
+CSN1 family,4,1,15.225,20.301,0.0
+SLC29A/ENT transporter (TC 2.A.57) family,4,1,15.18,15.762,0.0
+Peptidase M8 family,6,2,15.1,11.963,0.0
+Cation channel sperm-associated (TC 1.A.1.19) family,4,1,15.075,12.915,0.0
+MsrA Met sulfoxide reductase family,5,1,15.023,13.241,0.0
+Cyclodeaminase/cyclohydrolase family; Formiminotransferase family,4,1,15.001,12.955,0.0
+Syndetin family,3,1,14.985,16.524,0.0
+ITPRIP family,3,1,14.955,18.857,0.0
+Izumo family,7,2,14.953,16.701,0.0
+UPF0489 family,3,1,14.932,22.36,0.0
+NKAIN family,3,1,14.904,9.96,0.0
+Glycosyl hydrolase 85 family,3,1,14.854,17.279,0.0
+TECPR1 family,4,1,14.794,15.434,0.0
+DNA polymerase type-X family,3,1,14.661,27.187,0.0
+NAD(P)-dependent epimerase/dehydratase family,6,2,14.65,16.324,0.0
+Dynactin subunit 4 family,3,1,14.64,15.845,0.0
+EF-Ts family,4,1,14.605,15.809,0.0
+AAA ATPase family,35,10,14.58,16.517,0.0
+DDI1 family,3,1,14.536,18.464,0.0
+DHHC palmitoyltransferase family,26,8,14.513,18.412,0.0
+Protein prenyltransferase subunit alpha family,3,1,14.512,10.607,0.0
+Peptidase S9A family,4,1,14.465,11.015,0.0
+Amidinotransferase family,3,1,14.421,12.565,0.0
+ANF receptor family,3,1,14.418,12.604,0.0
+ENDOU family,3,1,14.39,15.211,0.0
+WD repeat neurobeachin family,6,2,14.379,14.733,0.0
+Thymidylate kinase family,4,1,14.374,14.952,0.0
+Musashi family,3,1,14.343,22.057,0.0
+Type-1 OGG1 family,8,1,14.281,19.651,0.0
+MoaC family; Radical SAM superfamily,9,1,14.259,13.467,0.0
+MCU (TC 1.A.77) family,3,1,14.245,9.799,0.0
+Type IA topoisomerase family,6,2,14.202,12.525,0.0
+CASP family,4,1,14.202,14.321,0.0
+WD repeat EMAP family,10,3,14.198,22.646,0.0
+CRISP family,14,3,14.186,14.211,0.0
+Chloride channel (TC 2.A.49) family,18,4,14.122,14.704,0.0
+RRN7/TAF1B family,3,1,14.116,10.005,0.0
+ESRP family,5,1,14.097,13.774,0.0
+G-protein coupled receptor 2 family,109,24,14.093,20.583,0.0
+Adaptor complexes large subunit family,19,5,14.09,18.127,0.0
+IL-1 family,13,3,14.062,13.291,0.0
+ODF2 family,16,2,14.034,13.184,0.0
+TRAFAC class dynamin-like GTPase superfamily,48,10,13.947,13.251,0.0
+Kindlin family,7,2,13.902,13.333,0.0
+Chondromodulin-1 family,3,1,13.88,10.795,0.0
+Nucleoporin Nup84/Nup107 family,3,1,13.839,9.982,0.0
+PHYHIP family,3,1,13.83,40.419,0.0
+RNase Z family,4,1,13.828,14.07,0.0
+Eukaryotic initiation factor 4E family,3,1,13.825,15.807,0.0
+Histidine acid phosphatase family,17,4,13.782,22.934,0.0
+CNOT1 family,4,1,13.773,15.292,0.0
+Cytochrome b560 family,5,1,13.609,16.894,0.0
+Nephrocystin-1 family,4,1,13.585,15.373,0.0
+Fanconi anemia protein FANCD2 family,4,1,13.567,14.138,0.0
+Pyrroline-5-carboxylate reductase family,3,1,13.48,11.141,0.0
+PIGQ family,3,1,13.378,19.372,0.0
+Amino acid-polyamine-organocation (APC) superfamily,7,2,13.374,16.081,0.0
+ADAD family,3,1,13.368,12.405,0.0
+Sodium:neurotransmitter symporter (SNF) (TC 2.A.22) family,19,6,13.333,15.064,0.0
+Derlin family,5,1,13.305,28.298,0.0
+JMJD6 family,6,2,13.299,12.792,0.0
+Iron/manganese superoxide dismutase family,4,1,13.281,10.653,0.0
+DEF8 family,6,1,13.26,15.11,0.0
+Mesothelin family,4,1,13.179,17.813,0.0
+EYS family,4,1,13.173,13.679,0.0
+APC8/CDC23 family,3,1,13.152,10.921,0.0
+SDS22 family,5,1,13.08,14.413,0.0
+Integrin beta chain family,13,3,13.065,15.689,0.0
+SRP68 family,4,1,13.06,10.054,0.0
+BBIP10 family,4,1,13.043,31.522,0.0
+Class V-like SAM-binding methyltransferase superfamily; Mariner transposase family,3,1,13.028,13.958,0.0
+MOB1/phocein family,6,2,12.987,13.21,0.0
+Integrator subunit 14 family,4,1,12.965,11.743,0.0
+IPP transferase family,6,1,12.923,16.87,0.0
+Peroxidase family,14,3,12.887,11.323,0.0
+Guanylate kinase family,3,1,12.863,8.875,0.0
+GH3 family,3,1,12.83,10.615,0.0
+Sirtuin family,12,3,12.812,11.874,0.0
+TMEM39 family,4,1,12.782,25.798,0.0
+Metaxin family,7,2,12.749,20.093,0.0
+SLC41A transporter family,9,1,12.716,12.372,0.0
+Small GTPase superfamily,78,23,12.605,15.652,0.0
+Ferlin family,31,4,12.537,13.019,0.0
+WD repeat POC1 family,3,1,12.531,8.603,0.0
+ClpA/ClpB family,11,3,12.5,19.504,0.0
+Peptidase A1 family,14,3,12.438,12.851,0.0
+API5 family,6,1,12.412,10.94,0.0
+Two pore domain potassium channel (TC 1.A.1.8) family,14,4,12.339,17.632,0.0
+CENP-L/IML3 family,3,1,12.308,16.085,0.0
+Sestrin family,6,2,12.297,13.302,0.0
+FAM184 family,4,1,12.279,12.54,0.0
+Amino acid/polyamine transporter 2 family,16,5,12.271,19.595,0.0
+Tectonic family,11,2,12.216,15.989,0.0
+Ryanodine receptor (TC 1.A.3.1) family,6,2,12.211,11.926,0.0
+ELAPOR family,7,2,12.151,11.849,0.0
+Prokaryotic/mitochondrial release factor family,4,1,12.143,10.114,0.0
+Class-II pyridoxal-phosphate-dependent aminotransferase family,4,1,12.056,9.776,0.0
+Palmitoyl-protein thioesterase family,3,1,12.013,13.295,0.0
+Nucleotide-sugar transporter family,22,6,11.96,13.429,0.0
+Class-V pyridoxal-phosphate-dependent aminotransferase family,3,1,11.816,8.29,0.0
+TSR4 family,5,1,11.795,14.415,0.0
+Cullin family,9,3,11.789,15.945,0.0
+VPS13 family,14,3,11.784,13.818,0.0
+AIDA family,3,1,11.765,8.535,0.0
+SH3YL1 family,5,1,11.696,10.992,0.0
+Isocitrate and isopropylmalate dehydrogenases family,3,1,11.688,7.813,0.0
+Acid sphingomyelinase family,4,1,11.683,11.741,0.0
+Choline/ethanolamine kinase family,3,1,11.675,12.222,0.0
+ZFTRAF1 family,4,1,11.671,11.962,0.0
+JAKMIP family,11,2,11.568,14.179,0.0
+TFIIIC subunit 5 family,3,1,11.561,11.585,0.0
+SAMHD1 family,3,1,11.337,11.417,0.0
+Unc-13 family,9,2,11.299,11.795,0.0
+ORC3 family,3,1,11.252,11.487,0.0
+Radical SAM superfamily,3,1,11.246,10.805,0.0
+Calmodulin family,6,1,11.224,26.337,0.0
+Anoctamin family,26,7,11.199,12.536,0.0
+SIKE family,3,1,11.163,10.953,0.0
+CCNDBP1 family,4,1,11.158,11.339,0.0
+Flavin monoamine oxidase family,17,4,11.053,13.53,0.0
+Phosphatase 2A regulatory subunit B56 family,11,3,11.039,11.357,0.0
+MOG1 family,4,1,11.022,11.231,0.0
+Class I-like SAM-binding methyltransferase superfamily,83,21,10.963,17.716,0.036
+D-glutamate cyclase family,6,1,10.921,25.987,0.0
+'GDSL' lipolytic enzyme family,9,2,10.891,15.35,0.0
+ATP11 family,3,1,10.833,16.314,0.0
+Proteasome subunit p27 family,3,1,10.762,18.101,0.0
+Somatotropin/prolactin family,16,4,10.728,11.382,0.0
+Glycosyltransferase 2 family,18,5,10.669,10.494,0.0
+Sodium:solute symporter (SSF) (TC 2.A.21) family,14,3,10.669,8.91,0.0
+EXO70 family,6,1,10.621,11.137,0.0
+Peptidase S8 family,11,2,10.594,10.269,0.0
+PP2C family,26,7,10.553,14.645,0.0
+PIGG/PIGN/PIGO family,6,1,10.521,8.857,0.0
+Ca(2+):cation antiporter (CaCA) (TC 2.A.19) family,19,4,10.466,25.081,0.0
+TRAFAC class translation factor GTPase superfamily,18,5,10.451,17.807,0.0
+SLC13A/DASS transporter (TC 2.A.47) family,13,3,10.45,8.642,0.0
+5'-AMP-activated protein kinase gamma subunit family,6,2,10.434,17.768,0.0
+Fibulin family,13,3,10.424,11.837,0.0
+Maf family,3,1,10.413,10.411,0.0
+Transglutaminase-like superfamily,11,2,10.394,16.018,0.0
+MELT/VEPH family,4,1,10.384,10.617,0.0
+NnrD/CARKD family,4,1,10.374,12.238,0.0
+Phospholipase D family,11,3,10.366,11.656,0.0
+Actin-binding proteins ADF family,3,1,10.364,11.513,0.0
+TMEM54 family,3,1,10.36,7.249,0.0
+ADP-dependent glucokinase family,6,1,10.272,22.876,0.0
+PA28 family,6,2,10.241,18.976,0.0
+BRAT1 family,3,1,10.231,19.103,0.0
+EIF-3 subunit D family,3,1,10.22,9.18,0.0
+HAUS2 family,3,1,10.213,6.999,0.0
+Tenascin family,10,2,10.209,14.42,0.0
+Integrin alpha chain family,26,6,10.197,9.967,0.0
+V-ATPase G subunit family,6,2,10.169,16.319,0.0
+Serpin family,25,7,10.165,16.194,0.0
+CDC50/LEM3 family,3,1,10.154,12.4,0.0
+SIMIBI class G3E GTPase family,7,2,10.127,10.913,0.0
+Su(H) family,7,1,10.108,12.393,1.0
+Clusterin family,6,1,10.107,12.728,0.0
+SERAC1 family,3,1,10.092,11.811,0.0
+Peptidase S16 family,3,1,10.056,12.233,0.0
+Thymidylate synthase family,3,1,10.036,10.385,0.0
+PPR family,4,1,10.034,10.176,0.0
+G-protein coupled receptor 3 family,34,9,9.962,12.459,0.0
+Glycerophosphoryl diester phosphodiesterase family,11,3,9.917,8.047,0.0
+Carbon-nitrogen hydrolase superfamily,15,3,9.908,11.443,0.0
+Nudix hydrolase family,21,6,9.886,15.224,0.0
+Shaker potassium channel beta subunit family,8,2,9.884,10.755,0.0
+SLC26A/SulP transporter (TC 2.A.53) family,17,3,9.871,15.364,0.0
+UBE3C family,3,1,9.861,9.856,0.0
+DNAI7 family,4,1,9.839,11.801,0.0
+Nucleotide pyrophosphatase/phosphodiesterase family,3,1,9.797,9.091,0.0
+SABRE family,4,1,9.797,11.068,0.0
+Vinculin/alpha-catenin family,15,4,9.788,9.685,0.0
+GPAT/DAPAT family,4,1,9.775,9.489,0.0
+Class VI-like SAM-binding methyltransferase superfamily,3,1,9.746,12.444,0.0
+DNAJC25 family,3,1,9.722,14.165,0.0
+FAM107 family,4,1,9.714,29.857,0.0
+FPP/GGPP synthase family,3,1,9.639,7.461,0.0
+Argonaute family,6,2,9.628,7.665,0.0
+DDOST 48 kDa subunit family,3,1,9.589,9.681,0.0
+Peptidase S1 family,84,21,9.555,13.59,0.0
+Glycosyl hydrolase 31 family,3,1,9.524,6.529,0.0
+APC5 family,3,1,9.487,17.866,0.0
+NRAMP family,5,1,9.447,10.941,0.0
+Fuzzy family,3,1,9.424,9.199,0.0
+PGAP3 family,3,1,9.365,9.508,0.0
+Peptidase C54 family,9,2,9.358,13.067,0.0
+Myo-inositol 1-phosphate synthase family,3,1,9.325,9.834,0.0
+Methyltransferase superfamily,29,8,9.281,18.845,0.0
+Peptidase M2 family,4,1,9.251,9.015,0.0
+P2X receptor family,25,4,9.176,10.833,0.0
+MTERF family,3,1,9.174,13.05,1.0
+Peptidase C14A family,66,10,9.15,11.705,0.0
+Mitochondrion-specific ribosomal protein mL43 family,6,1,9.119,16.447,0.0
+Fatty acid desaturase type 1 family,4,1,9.08,9.694,0.0
+ATPase alpha/beta chains family,3,1,9.042,6.215,0.0
+Wntless family,3,1,9.024,9.25,0.0
+ST7 family,15,2,9.023,8.119,0.0
+Inositol 3,4,1,9.022,8.358,0.0
+Glutamate-gated ion channel (TC 1.A.10.1) family,24,4,8.877,9.954,0.0
+PI3/PI4-kinase family,10,3,8.843,14.697,0.0
+PIH1 family,6,2,8.793,27.561,0.0
+Cation transport ATPase (P-type) (TC 3.A.3) family,106,22,8.771,9.951,0.0
+Glycosyl hydrolase 35 family,6,2,8.765,10.46,0.0
+5'(3')-deoxyribonucleotidase family,4,1,8.764,7.155,0.0
+Tubulin polyglutamylase family,3,1,8.747,6.469,0.0
+Glycosyl hydrolase 79 family,8,2,8.734,8.408,0.0
+Mediator complex subunit 27 family,3,1,8.727,10.626,0.0
+Type II pantothenate kinase family,8,2,8.725,13.996,0.0
+ROX family,4,1,8.611,7.788,0.0
+Multicopper oxidase family,4,1,8.596,8.611,0.0
+WD repeat WDR33 family,3,1,8.56,29.317,0.0
+PTPA-type PPIase family,4,1,8.447,8.352,0.0
+Lipase maturation factor family,3,1,8.418,9.12,0.0
+Mitochondrion-specific ribosomal protein mS29 family,3,1,8.403,8.664,0.0
+Cytidylyltransferase family,8,2,8.333,12.357,0.0
+Leprecan family,4,1,8.299,7.467,0.0
+APC6/CDC16 family,4,1,8.271,8.393,0.0
+GST superfamily,19,6,8.23,6.111,0.0
+PPP phosphatase family,23,6,8.211,11.321,0.0
+P4HA family,6,2,8.193,9.09,0.0
+DRC6 family,4,1,8.162,9.11,0.0
+LZTFL1 family,3,1,8.156,8.519,0.0
+ABC transporter superfamily,103,23,8.142,12.543,0.0
+SLMAP family,8,1,8.121,10.829,0.0
+Glycerate kinase type-2 family,7,1,8.096,8.647,0.0
+CFAP43 family,5,1,8.094,9.868,0.0
+Ferredoxin--NADP reductase type 1 family,7,1,8.075,8.669,0.0
+Cyclophilin-type PPIase family,6,2,8.069,9.824,0.0
+CoA-transferase III family,8,2,7.989,6.59,0.0
+Syntaxin family,19,5,7.986,13.345,0.0
+Potassium channel KCNN family,3,1,7.981,19.154,0.0
+NARF family,7,2,7.968,7.366,0.0
+GcvT family,4,1,7.862,7.824,0.0
+PI3K p85 subunit family,8,2,7.846,6.767,0.0
+NELF-D family,3,1,7.797,12.516,0.0
+Acid ceramidase family,6,2,7.777,9.064,0.0
+SLC43A transporter (TC 2.A.1.44) family,4,1,7.707,10.809,0.0
+Peptidase M1 family,22,6,7.704,8.977,0.0
+Metallo-beta-lactamase superfamily,19,5,7.692,16.692,0.0
+TRIM/RBCC family,56,15,7.68,15.317,0.0
+MCM family,11,3,7.619,13.722,0.0
+Glycosyl hydrolase 18 family,13,4,7.609,6.813,0.0
+Actin family,6,2,7.602,9.578,0.0
+LTN1 family,3,1,7.551,7.892,0.0
+WD repeat TRM82 family,3,1,7.543,8.782,0.0
+HAUS7 family,3,1,7.542,10.77,0.0
+KDELC family,3,1,7.539,6.26,0.0
+AB hydrolase superfamily,57,14,7.5,11.761,0.0
+TRNA nucleotidyltransferase/poly(A) polymerase family,3,1,7.488,38.21,0.0
+NADPH-dependent diflavin oxidoreductase NDOR1 family; Flavodoxin family; Flavoprotein pyridine nucleotide cytochrome reductase family,4,1,7.482,7.375,0.0
+Peptidase C56 family,4,1,7.4,9.7,0.0
+SepSecS family,3,1,7.385,7.528,0.0
+ARPC4 family,4,1,7.36,13.038,0.0
+3-hydroxyacyl-CoA dehydrogenase family,3,1,7.325,11.766,0.0
+CDC45 family,3,1,7.308,9.802,0.0
+Major facilitator (TC 2.A.1) superfamily,40,11,7.273,13.466,0.0
+Sarcoglycan beta/delta/gamma/zeta family,3,1,7.241,15.919,0.0
+DNA/RNA non-specific endonuclease family,4,1,7.201,8.318,0.0
+E3 ubiquitin-protein ligase UBR1-like family,8,2,7.179,7.608,0.0
+APC4 family,3,1,7.169,6.355,0.0
+Crumbs protein family,8,2,7.099,7.565,0.0
+MHC class I family,38,7,7.069,10.188,0.0
+UbiH/COQ6 family,3,1,7.051,7.536,0.0
+Stereocilin family,5,1,7.025,8.554,0.0
+VPS53 family,4,1,7.004,7.888,0.0
+NIBP family,3,1,6.969,7.849,0.0
+Peptidase M13 family,10,3,6.919,7.103,0.0
+MnmA/TRMU family,5,1,6.888,6.574,0.0
+Acyl-CoA dehydrogenase family,14,4,6.873,7.072,0.0
+DNA2/NAM7 helicase family,15,4,6.805,15.701,0.0
+CAND family,3,1,6.78,7.05,0.0
+Glycosyltransferase 61 family,3,1,6.772,9.06,0.0
+Peptidase M16 family,3,1,6.744,5.773,0.0
+OLFML3 family,3,1,6.736,12.414,0.0
+Non-lysosomal glucosylceramidase family,3,1,6.727,7.253,0.0
+FRAS1 family,9,2,6.713,5.709,0.0
+COG5 family,4,1,6.711,5.901,0.0
+Copper/topaquinone oxidase family,3,1,6.684,4.962,0.0
+WD repeat ELP2 family,7,1,6.625,6.599,0.0
+FAD-dependent oxidoreductase 2 family,3,1,6.551,6.897,0.0
+Glycosyltransferase 68 family,3,1,6.527,6.754,0.0
+DNAAF5 family,3,1,6.524,6.412,0.0
+Class-IV pyridoxal-phosphate-dependent aminotransferase family,5,1,6.494,6.001,0.0
+BZW family,4,1,6.449,7.761,0.0
+Glycosyltransferase 10 family,7,1,6.43,5.865,0.0
+Glycosyltransferase 54 family,3,1,6.387,6.038,0.0
+Interleukin-1 receptor family,12,3,6.294,8.025,0.0
+Type-B carboxylesterase/lipase family,29,7,6.262,11.705,0.0
+Sulfatase family,6,2,6.261,7.844,0.0
+Phosphoenolpyruvate carboxykinase [GTP] family,3,1,6.25,5.182,0.0
+HEATR5 family,6,2,6.219,6.011,0.0
+Class-I aminoacyl-tRNA synthetase family,10,3,6.192,7.176,0.0
+Succinate/malate CoA ligase beta subunit family; Succinate/malate CoA ligase alpha subunit family,3,1,6.176,6.059,0.0
+Aromatic-ring hydroxylase family,3,1,6.173,6.391,0.0
+FKBP6 family,3,1,6.116,4.283,0.0
+Ankyrin SOCS box (ASB) family,15,5,6.115,6.315,0.0
+Sulfotransferase 1 family,9,3,6.071,5.313,0.0
+Class-I pyridine nucleotide-disulfide oxidoreductase family,19,4,6.02,5.648,0.0
+Wnt family,3,1,5.983,8.664,0.0
+Peptidase C2 family,13,2,5.898,13.065,0.0
+UNR family,5,1,5.89,7.345,0.0
+Peptidase C13 family,3,1,5.851,5.538,0.0
+EIF-2B gamma/epsilon subunits family,3,1,5.825,6.68,0.0
+Mitochondrial carrier (TC 2.A.29) family,49,14,5.757,11.986,0.0
+Lysyl oxidase family,3,1,5.71,4.206,0.0
+Carotenoid oxygenase family,5,1,5.699,5.848,0.0
+CD36 family,9,2,5.697,4.81,0.0
+BABAM2 family,4,1,5.697,4.761,0.0
+DNA mismatch repair MutS family,8,2,5.654,11.259,0.0
+GSAP family,4,1,5.635,4.517,0.0
+Phosphorylase b kinase regulatory chain family,7,2,5.581,9.953,0.0
+COG6 family,3,1,5.528,19.123,0.0
+BRINP family,3,1,5.519,5.902,0.0
+G-alpha family,19,5,5.512,15.086,0.0
+EMP24/GP25L family,6,2,5.507,6.061,0.0
+V-ATPase 116 kDa subunit family,3,1,5.496,6.062,0.0
+Proline oxidase family,3,1,5.426,8.157,0.0
+Glycosyltransferase 117 (GT117) family,3,1,5.379,5.394,0.0
+PIGT family,6,1,5.373,5.59,0.0
+Prominin family,10,2,5.292,6.866,0.0
+RIB43A family,3,1,5.277,5.752,0.0
+Spectrin family,14,4,5.23,7.699,0.0
+ALB/AFP/VDB family,6,2,5.225,4.784,0.0
+Biopterin-dependent aromatic amino acid hydroxylase family,6,1,5.198,9.252,0.0
+Glycosyl hydrolase 2 family,3,1,5.167,5.356,0.0
+IFT56 family,3,1,5.163,5.254,0.0
+MnmG family,6,1,5.158,6.04,0.0
+NRAP family,4,1,5.137,5.7,0.0
+Glycosyl hydrolase 56 family,11,2,5.057,11.658,0.0
+MIP/aquaporin (TC 1.A.8) family,4,1,5.046,13.007,0.0
+Alpha-ketoglutarate dehydrogenase family,6,2,5.011,7.081,0.0
+Peptidase M28 family,19,3,5.0,4.694,0.0
+EMC1 family,4,1,4.836,4.838,0.0
+Gamma-glutamyltransferase family,13,4,4.778,9.529,0.0
+EFR3 family,6,2,4.724,5.778,0.0
+LIMR family,12,3,4.71,4.342,0.0
+Integrator subunit 7 family,4,1,4.656,4.649,0.0
+Phosphatase 2A regulatory subunit A family,5,1,4.641,7.733,0.0
+Dynein heavy chain family,35,10,4.618,8.85,0.0
+Mediator complex subunit 16 family,5,1,4.525,4.933,0.0
+Patched family,15,4,4.505,10.539,0.0
+Adenylyl cyclase class-4/guanylyl cyclase family,10,3,4.48,6.396,0.0
+Class-III pyridoxal-phosphate-dependent aminotransferase family,6,2,4.462,4.767,0.0
+Glycosyltransferase 22 family,4,1,4.45,4.475,0.0
+STEAP family,7,2,4.405,6.39,0.0
+Alkaline phosphatase family,3,1,4.389,9.741,0.0
+Group II decarboxylase family,15,4,4.377,5.951,0.0
+STXBP/unc-18/SEC1 family,6,2,4.347,4.636,0.0
+Peptidase S9B family,13,3,4.271,4.031,0.0
+NLRP family,42,9,4.261,7.809,0.0
+WD repeat WDR48 family,5,1,4.202,15.637,0.0
+TTC39 family,16,3,4.123,12.871,0.0
+CSC1 (TC 1.A.17) family,3,1,4.073,6.967,0.0
+TCP-1 chaperonin family,10,3,4.011,3.2,0.0
+Acyl coenzyme A hydrolase family,4,1,3.986,4.225,0.0
+Prostaglandin G/H synthase family,6,1,3.922,4.086,0.0
+Proteasome subunit S2 family,3,1,3.872,5.586,0.0
+Glycosyl hydrolase 59 family,4,1,3.852,4.043,0.0
+Glycosyl hydrolase 38 family,7,2,3.826,4.474,0.0
+MON2 family,5,1,3.741,3.016,0.0
+VPS41 family,3,1,3.739,3.745,0.0
+CSMD family,13,3,3.732,3.039,0.0
+Complex I 75 kDa subunit family,5,1,3.714,2.631,0.0
+CTL (choline transporter-like) family,19,5,3.566,4.981,0.0
+Calcium channel subunit alpha-2/delta family,19,4,3.41,4.555,0.0
+Toll-like receptor family,8,2,3.387,3.782,0.0
+Ubiquitin-activating E1 family,11,3,3.327,3.942,0.0
+MROH1 family,7,1,3.279,5.601,0.0
+Selenium-binding protein family,4,1,3.186,4.22,0.0
+COG4 family,3,1,3.185,3.435,0.0
+Enolase family,6,2,3.168,6.321,0.0
+Fanconi anemia group I protein family,4,1,3.16,2.389,0.0
+Iron-containing alcohol dehydrogenase family,4,1,3.105,3.863,0.0
+OGFOD2 family,4,1,3.0,19.136,0.0
+Flavoprotein pyridine nucleotide cytochrome reductase family,6,2,2.994,5.505,0.0
+ARTD/PARP family,23,6,2.958,11.443,0.0
+NOTCH family,6,2,2.918,15.802,0.0
+Importin beta family,6,2,2.84,2.904,0.0
+RSE1 family,3,1,2.794,3.521,0.0
+MET18/MMS19 family,6,1,2.729,18.059,0.0
+CYFIP family,3,1,2.676,3.18,0.0
+Golgi pH regulator (TC 1.A.38) family,4,1,2.442,2.485,0.0
+CATSPERD family,3,1,2.404,2.308,0.0
+Peptidase C1 family,6,2,2.376,4.08,0.0
+GPI inositol-deacylase family,4,1,2.223,2.415,0.0
+SMC family,6,2,2.151,1.856,0.0
+THADA family,6,1,1.997,2.532,0.0
+Carnitine/choline acetyltransferase family,16,5,1.984,3.886,0.0
+CEP63 family,4,1,1.848,6.721,0.0
+TBCD family,5,1,1.843,1.336,0.0
+Protease inhibitor I39 (alpha-2-macroglobulin) family,4,1,1.683,2.104,0.0
+Mediator complex subunit 23 family,6,1,1.615,1.246,0.0
+Reelin family,3,1,1.561,1.313,0.0
+ATP-dependent AMP-binding enzyme family,40,10,1.385,4.758,0.0
+ACBP family,6,1,0.0,9.844,0.0
+FBXL17 family,3,1,0.0,15.264,0.0
+Filamin family,12,2,0.0,0.497,0.0
+Ro 60 kDa family,5,1,0.0,0.0,0.0
+HOP2 family,3,1,0.0,0.0,0.0
+AAMDC family,3,1,0.0,0.0,0.0
+Misato family,7,1,0.0,9.184,0.0
+Aldehyde dehydrogenase family,20,6,0.0,2.578,0.0
+ATP synthase subunit s family,9,2,0.0,5.236,0.0
+ATG7 family,3,1,0.0,0.0,0.0
+ARMH3 family,3,1,0.0,2.612,0.0
+ARL6ip family,3,1,0.0,0.0,0.0
+XPO2/CSE1 family,4,1,0.0,0.0,0.0
+YdjC deacetylase family,3,1,0.0,21.569,0.0
+WD repeat THOC6 family,3,1,0.0,0.0,0.0
+WD repeat SEC13 family,4,1,0.0,1.427,0.0
+WD repeat RBAP46/RBAP48/MSI1 family,4,1,0.0,0.0,0.0
+WD repeat PAAF1/RPN14 family,3,1,0.0,0.0,0.0
+WD repeat LST8 family,4,1,0.0,3.111,0.0
+Nucleoporin Nup85 family,3,1,0.0,3.463,0.0
+HMG-CoA lyase family,7,2,0.0,5.474,0.0
+HMBS family,4,1,0.0,0.0,0.0
+HDDC2 family,3,1,0.0,9.02,0.0
+HAUS4 family,4,1,0.0,0.0,0.0
+HAM1 NTPase family,3,1,0.0,0.0,0.0
+Phytoene/squalene synthase family,5,1,0.0,0.0,0.0
+PhyH family,3,1,0.0,18.519,0.0
+Phosphohexose mutase family,6,2,0.0,0.677,0.0
+Class-II aminoacyl-tRNA synthetase family,7,2,0.0,0.878,0.0
+Class-I pyridoxal-phosphate-dependent aminotransferase family,6,2,0.0,4.914,0.0
+Sulfotransferase 3 family,3,1,0.0,10.341,0.0
+Queuine tRNA-ribosyltransferase family,4,1,0.0,0.0,0.0
+Pyruvate kinase family,3,1,0.0,4.393,0.0
+Pyrimidine 5'-nucleotidase family,4,1,0.0,0.0,0.0
+Pyridoxine kinase family,3,1,0.0,0.0,0.0
+Purine/pyrimidine phosphoribosyltransferase family; OMP decarboxylase family,4,1,0.0,0.0,0.0
+Purine/pyrimidine phosphoribosyltransferase family,3,1,0.0,0.0,0.0
+Protein lines family,3,1,0.0,5.724,0.0
+Granulin family,3,1,0.0,5.085,0.0
+DNAJC11 family,3,1,0.0,0.0,0.0
+DAMOX/DASOX family,4,1,0.0,0.0,0.0
+Cytochrome P450 family,24,7,0.0,1.706,0.0
+Short-chain dehydrogenases/reductases (SDR) family,57,13,0.0,10.062,0.0
+Selenophosphate synthase 1 family,4,1,0.0,0.0,0.0
+Glyoxalase I family,3,1,0.0,2.236,0.0
+Stathmin family,4,1,0.0,0.0,0.0
+Peptidase M49 family,3,1,0.0,0.0,0.0
+Phosphofructokinase type A (PFKA) family,3,1,0.0,2.037,0.0
+Phosphatase 2A regulatory subunit B family,11,2,0.0,3.271,0.0
+Peroxiredoxin-like PRXL2 family,6,1,0.0,4.35,0.0
+Peptidase T1B family,3,1,0.0,7.718,0.0
+Peptidase T1A family,9,3,0.0,0.0,0.0
+Hexokinase family,10,3,0.0,0.0,0.0
+Churchill family,4,1,0.0,0.0,0.0
+Diacylglycerol acyltransferase family,9,3,0.0,4.77,0.0
+Deoxyhypusine synthase family,3,1,0.0,0.0,0.0
+DapA family,5,1,0.0,2.259,0.0
+DTDP-4-dehydrorhamnose reductase family,5,1,0.0,0.0,0.0
+DRC8 family,3,1,0.0,14.002,0.0
+SecY/SEC61-alpha family,3,1,0.0,2.593,0.0
+DNA polymerase epsilon subunit B family,3,1,0.0,0.0,0.0
+SWEET sugar transporter family,3,1,0.0,6.426,0.0
+SURF4 family,3,1,0.0,0.0,0.0
+Prefoldin subunit alpha family,3,1,0.0,0.0,0.0
+Chondroitin N-acetylgalactosaminyltransferase family,6,2,0.0,3.852,0.0
+Chloride channel CLIC family,3,1,0.0,13.821,0.0
+Synaptogyrin family,3,1,0.0,7.296,0.0
+Peptidase C12 family,7,2,0.0,0.0,0.0
+IMPDH/GMPR family,10,2,0.0,2.056,0.0
+IFT81 family,3,1,0.0,4.099,0.0
+IFT172 family,3,1,0.0,0.0,0.0
+IAP family,7,1,0.0,6.048,0.0
+Hyi family,4,1,0.0,0.0,0.0
+Peptidase S26B family,4,1,0.0,2.838,0.0
+Peptidase M67A family,8,2,0.0,10.716,0.375
+CSN12 family,4,1,0.0,0.0,0.0
+Carbohydrate kinase PfkB family,4,1,0.0,0.0,0.0
+TCAF family,3,1,0.0,2.209,0.0
+TAM41 family,3,1,0.0,2.434,0.0
+Clarin family,3,1,0.0,0.0,0.0
+COPE family,3,1,0.0,0.0,0.0
+COMM domain-containing protein 4 family,3,1,0.0,0.0,0.0
+TMEM126 family,5,1,0.0,8.798,0.0
+TLCD5 family,4,1,0.0,0.0,0.0
+Glycosyl hydrolase 30 family,5,1,0.0,2.9,0.0
+Glycogen debranching enzyme family,3,1,0.0,0.0,0.0
+Glycosyltransferase 47 family,3,1,0.0,1.198,0.0
+Glycosyltransferase 41 family,4,1,0.0,0.0,0.0
+Glycosyltransferase 4 family,3,1,0.0,0.0,0.0
+Glycosyltransferase 39 family,4,1,0.0,0.0,0.0
+Glycosyltransferase 29 family,39,4,0.0,6.272,0.0
+Glycosyltransferase 23 family,4,1,0.0,0.0,0.0
+SPO22 family,3,1,0.0,1.418,0.0
+Calcineurin regulatory subunit family,3,1,0.0,0.0,0.0
+CNOT9 family,3,1,0.0,0.0,0.0
+CNEP1R1 family,3,1,0.0,0.0,0.0
+CINP family,3,1,0.0,0.0,0.0
+TMEM234 family,4,1,0.0,0.0,0.0
+TMEM231 family,3,1,0.0,8.019,0.0
+TMEM182 family,3,1,0.0,0.0,0.0
+TMEM163 family,3,1,0.0,9.227,0.0
+TMEM161 family,3,1,0.0,0.0,0.0
+TMEM138 family,3,1,0.0,0.0,0.0
+Iodothyronine deiodinase family,12,2,0.0,23.365,0.0
+Peptidase M24B family,12,3,0.0,5.341,0.0
+Peptidase M20A family,4,1,0.0,0.0,0.0
+Peptidase M17 family,5,1,0.0,3.663,0.0
+Peptidase C69 family,3,1,0.0,1.536,0.0
+Inositol monophosphatase superfamily,7,2,0.0,0.0,0.0
+Paraoxonase family,3,1,0.0,0.0,0.0
+CIBAR family,5,1,0.0,7.396,0.0
+CGI121/TPRKB family,3,1,0.0,0.0,0.0
+CFAP70 family,5,1,0.0,6.113,0.0
+CFAP52 family,3,1,0.0,0.0,0.0
+CFAP46 family,3,1,0.0,6.544,0.0
+CFAP300 family,3,1,0.0,0.0,0.0
+TPP enzyme family,4,1,0.0,0.0,0.0
+TNFAIP8 family,4,1,0.0,0.0,0.0
+TNF receptor-associated factor family,7,2,0.0,0.0,0.0
+TMTC family,9,2,0.0,3.827,0.0
+CEP76 family,3,1,0.0,1.884,0.0
+CENP-X/MHF2 family,3,1,0.0,0.0,1.0
+CENP-N/CHL4 family,5,1,0.0,2.033,0.0
+TTC21 family,5,1,0.0,0.0,0.0
+TRAPPC13 family,5,1,0.0,0.0,0.0
+TRAPPC11 family,4,1,0.0,0.0,0.0
+Eukaryotic NMN adenylyltransferase family,3,1,0.0,0.0,0.0
+EBP family,5,1,0.0,0.0,0.0
+ELP3 family,4,1,0.0,0.0,0.0
+Dynein light intermediate chain family,5,1,0.0,0.0,0.0
+Dynein light chain LC1-type family,3,1,0.0,4.415,0.0
+Dynactin subunits 5/6 family,3,1,0.0,0.0,0.0
+Dynactin subunit 3 family,3,1,0.0,0.0,0.0
+Diphthine synthase family,6,1,0.0,0.0,0.0
+SNAP family,3,1,0.0,0.0,0.0
+2-5A synthase family,10,3,0.0,1.692,0.0
+TRAPP small subunits family,7,2,0.0,32.37,0.0
+LHFP family,3,1,0.0,33.333,0.0
+Inward rectifier-type potassium channel (TC 1.A.2.1) family,3,1,0.0,2.151,0.0
+Intercrine alpha (chemokine CxC) family,7,1,0.0,6.866,0.0
+Integrator subunit 4 family,3,1,0.0,0.692,0.0
+PSMG4 family,3,1,0.0,33.333,0.0
+PRKRA family,3,1,0.0,2.13,0.0
+KAE1 / TsaD family,3,1,0.0,0.0,0.0
+Threonine synthase family,5,1,0.0,0.0,0.0
+Thiolase-like superfamily,11,2,0.0,12.903,0.0
+CDP-alcohol phosphatidyltransferase class-I family,3,1,0.0,11.172,0.0
+CDKN2 cyclin-dependent kinase inhibitor family,4,1,0.0,25.0,0.0
+Tetraspanin (TM4SF) family,25,7,0.0,6.929,0.0
+Tetrahydrofolate dehydrogenase/cyclohydrolase family,5,1,0.0,5.791,0.0
+Terpene cyclase/mutase family,3,1,0.0,0.0,0.0
+Tango2 family,6,1,0.0,4.217,0.0
+Taffazin family,9,1,0.0,0.0,0.0
+PGAP2 family,5,1,0.0,6.194,0.0
+Isochorismatase family,3,1,0.0,0.0,0.0
+PNP/MTAP phosphorylase family,7,1,0.0,0.0,0.0
+PMP-22/EMP/MP20 family,6,2,0.0,0.0,0.0
+KLHL3 family,3,1,0.0,1.363,0.0
+CCDC90 family,3,1,0.0,6.168,0.0
+CCDC169 family,6,1,0.0,12.17,0.0
+Triosephosphate isomerase family,3,1,0.0,0.0,0.0
+Transketolase family,3,1,0.0,0.0,0.0
+Transglutaminase superfamily,6,2,0.0,1.861,0.0
+Trans-sulfuration enzymes family,3,1,0.0,0.0,0.0
+Tom5 family,3,1,0.0,33.333,0.0
+LDH/MDH superfamily,11,3,0.0,1.563,0.0
+Low molecular weight phosphotyrosine protein phosphatase family,4,1,0.0,0.0,0.0
+Lipoxygenase family,9,2,0.0,3.125,0.0
+Laat-1 family,3,1,0.0,0.0,0.0
+LYSET family,3,1,0.0,0.0,0.0
+PIGP family,3,1,0.0,0.0,0.0
+Bile acid:sodium symporter (BASS) (TC 2.A.28) family,7,1,0.0,0.0,0.0
+BPI/LBP/Plunc superfamily,4,1,0.0,2.84,0.0
+Tubulin family,6,1,0.0,0.0,0.0
+ERG2 family,5,1,0.0,0.0,0.0
+SHMT family,7,2,0.0,3.78,0.0
+SEC20 family,4,1,0.0,0.0,0.0
+Eukaryotic mitochondrial porin family,3,1,0.0,0.0,0.0
+Eukaryotic RPB8 RNA polymerase subunit family,5,1,0.0,2.743,0.0
+Glycosyltransferase 14 family,3,1,0.0,3.417,0.0
+Gluconokinase GntK/GntV family,3,1,0.0,8.986,0.0
+Glu/Leu/Phe/Val dehydrogenases family,3,1,0.0,3.405,0.0
+Gfo/Idh/MocA family,6,2,0.0,0.0,0.0
+Gasdermin family,9,2,0.0,2.93,0.0
+Gamma-glutamylcyclotransferase family,4,1,0.0,0.0,0.0
+RNA polymerase beta chain family,5,1,0.0,0.831,0.0
+Tropomyosin family,20,3,0.0,2.57,0.0
+MAL family,4,1,0.0,0.0,0.0
+Lyase 1 family,3,1,0.0,0.0,0.0
+PAL/histidase family,3,1,0.0,0.0,0.0
+MEMO1 family,3,1,0.0,0.0,0.0
+MCTS1 family,3,1,0.0,0.0,0.0
+CALHM family,7,2,0.0,6.043,0.0
+BLM10 family,4,1,0.0,0.38,0.0
+UDPGP type 1 family,3,1,0.0,0.0,0.0
+UDP-glycosyltransferase family,9,3,0.0,2.157,0.0
+UDP-glucose/GDP-mannose dehydrogenase family,3,1,0.0,0.0,0.0
+UDP-N-acetylglucosamine 2-epimerase family; ROK (NagC/XylR) family,5,1,0.0,0.781,0.0
+MIF4GD family,3,1,0.0,0.0,0.0
+Orn/Lys/Arg decarboxylase class-II family,5,1,0.0,1.292,0.0
+Oligoribonuclease family,3,1,0.0,5.204,0.0
+ORC4 family,3,1,0.0,0.0,0.0
+Aminoglycoside phosphotransferase family,3,1,0.0,0.0,0.0
+Alpha-carbonic anhydrase family,3,1,0.0,7.561,0.0
+FAH family,4,1,0.0,0.0,0.0
+Eukaryotic ribosomal protein eL31 family,3,1,0.0,0.0,0.0
+FMO family,3,1,0.0,0.0,0.0
+Fto family,4,1,0.0,0.0,0.0
+GINS3/PSF3 family,3,1,0.0,0.0,0.0
+GDA1/CD39 NTPase family,12,3,0.0,4.511,0.0
+GART family; Aldehyde dehydrogenase family,7,2,0.0,2.913,0.0
+Gamma-BBH/TMLD family,8,1,0.0,0.0,0.0
+GTP cyclohydrolase I type 2/NIF3 family,3,1,0.0,0.0,0.0
+Zinc-containing alcohol dehydrogenase family,9,3,0.0,5.685,0.0
+Glucose-6-phosphate dehydrogenase family,3,1,0.0,2.018,0.0
+FGGY kinase family,13,3,0.0,2.698,0.0
+ERGIC family,6,2,0.0,2.096,0.0
+URM1 family,3,1,0.0,11.872,0.0
+UPP synthase family,4,1,0.0,0.0,0.0
+UPF0728 family,4,1,0.0,0.0,0.0
+Arginase family,3,1,0.0,0.0,0.0
+Archease family,3,1,0.0,3.911,0.0
+Adenylate kinase family,21,5,0.0,8.849,0.0
+Adaptor complexes small subunit family,13,3,0.0,8.51,0.0
+Acyl-CoA oxidase family,7,2,0.0,0.493,0.0
+V-ATPase E subunit family,3,1,0.0,0.0,0.0
+Universal ribosomal protein uL30 family,3,1,0.0,4.348,0.0
+Ubiquitin-conjugating enzyme family,49,12,0.0,10.755,0.0
+Annexin family,6,2,0.0,0.0,0.0
+Membrane-bound acyltransferase family,25,6,0.0,9.101,0.0
+'GDXG' lipolytic enzyme family,3,1,0.0,0.0,0.0
+Mandelate racemase/muconate lactonizing enzyme family,7,1,0.0,3.315,0.0
+Nurim family,3,1,0.0,33.333,0.0
+Ammonium transporter (TC 2.A.49) family,25,3,0.0,3.57,0.0
+Acetyltransferase family,8,2,0.0,10.524,0.0
+ATPase F chain family,4,1,0.0,12.216,0.0
+VKOR family,3,1,0.0,0.0,0.0
+Alpha-actinin family,7,2,0.0,2.416,0.0
+Glucosamine/galactosamine-6-phosphate isomerase family,5,1,0.0,0.0,0.0
+Mitochondrial Rho GTPase family,7,1,0.0,0.0,0.0
+Metallo-dependent hydrolases superfamily,27,7,0.0,8.215,0.0
+MoaB/Mog family; PAPS reductase family,5,1,0.0,6.004,0.0
+NXF family,6,1,0.0,3.679,0.0
+1-acyl-sn-glycerol-3-phosphate acyltransferase family,6,2,0.0,6.391,0.0
+NAPRTase family,3,1,0.0,0.0,0.0
+NAD(P)H dehydrogenase (quinone) family,3,1,0.0,0.0,0.0
+N-acylglucosamine 2-epimerase family,3,1,0.0,0.0,0.0
+Myelin proteolipid protein family,7,2,0.0,6.7,0.0
+NOD1-NOD2 family,6,2,0.0,3.945,0.0
+Glycosyltransferase 6 family,3,1,0.0,33.333,0.0
+Proteasome subunit S10 family,4,1,0.0,0.0,0.0
+AIG1 family,9,2,0.0,1.121,0.0
+Complex I NDUFC2 subunit family,3,1,0.0,0.0,0.0
+Sideroflexin family,3,1,0.0,2.404,0.0
+APH-1 family,3,1,0.0,0.0,0.0
+Metallophosphoesterase superfamily,8,2,0.0,2.664,0.0
+Ribulose-phosphate 3-epimerase family,5,1,0.0,0.0,0.0
+Ribose-phosphate pyrophosphokinase family,4,1,0.0,3.975,0.0
+ADIPOR family,15,4,0.0,3.617,0.0
+RecA family,17,3,0.0,2.716,0.0
+Rad1 family,3,1,0.0,0.0,0.0
+RRP4 family,3,1,0.0,0.0,0.0
+GAMAD family,3,1,0.0,7.556,0.0
+Enoyl-CoA hydratase/isomerase family,6,1,0.0,16.667,0.0
+Endoribonuclease YbeY family,4,1,0.0,0.0,0.0
+SCC4/mau-2 family,3,1,0.0,0.0,0.0
+FAIM1 family,3,1,0.0,0.0,0.0
+Alkaline ceramidase family,3,1,0.0,0.0,0.0
+Aldo/keto reductase family,8,2,0.0,0.0,0.0
+Nucleoredoxin family,3,1,0.0,6.284,0.0
+WD repeat G protein beta family,3,1,0.0,0.0,0.0

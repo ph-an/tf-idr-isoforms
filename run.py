@@ -14,7 +14,8 @@ Steps
   catalog   render figure previews and FIGURES.md from figures/catalog.tsv
 
 Logs go to results/logs/ and executed notebooks to results/executed_notebooks/ (neither tracked by git).
-results/run_manifest.json records the environment, parameters, timings and output checksums.
+A complete run writes results/run_manifest.json (environment, parameters, timings, output checksums);
+a partial run writes the same record to results/logs/partial_run_manifest.json.
 PDFs carry a fixed creation date (SOURCE_DATE_EPOCH) so an unchanged figure is byte-identical after a rerun.
 """
 from __future__ import annotations
@@ -187,9 +188,11 @@ def main() -> None:
         record[name] = STEPS[name]()
     record["finished"] = dt.datetime.now().isoformat(timespec="seconds")
     record["outputs_sha256"] = output_checksums()
-    RESULTS.mkdir(exist_ok=True)
-    (RESULTS / "run_manifest.json").write_text(json.dumps(record, indent=1) + "\n", encoding="utf-8")
-    print(f"done -> {RESULTS / 'run_manifest.json'}")
+    # the tracked manifest describes a complete rebuild; partial runs are logged next to their step logs
+    target = RESULTS / "run_manifest.json" if args.steps == list(STEPS) else LOGS / "partial_run_manifest.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(record, indent=1) + "\n", encoding="utf-8")
+    print(f"done -> {target}")
 
 
 if __name__ == "__main__":
