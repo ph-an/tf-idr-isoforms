@@ -1,0 +1,6 @@
+# Inputs listed in data/manifest.tsv are checksummed: store and check them out byte-for-byte
+data/external/** -text
+
+# Generated figures and previews
+*.pdf binary
+*.png binary
