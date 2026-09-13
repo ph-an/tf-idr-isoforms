@@ -52,15 +52,15 @@ installed from `requirements.txt` (Python 3.13.14, Windows 11), passed the check
 | PDFs with identical rendering and text (bytes differ only in the embedded creation date) | 71 |
 | `data/genomic/qc/qc_report.md`: differs only in its generation date | 1 |
 
-No output differs in content.
-
-The committed repository was then cloned fresh, given only `data/raw/`, and rebuilt with `python run.py` (all five
-steps, exit code 0, 23 minutes). Every tracked file — all figures, previews, `FIGURES.md` and `results/tables/` — came out
-byte-identical, and the 175 untracked data tables matched the first run's checksums. The only changed file was
-`results/run_manifest.json`, which records that run and is the version committed here. Lab files with no counterpart here are the GENCODE and UniProt downloads (kept
+No output differs in content. Lab files with no counterpart here are the GENCODE and UniProt downloads (kept
 under `data/raw/`), older unused GENCODE v46 and basic-annotation downloads, two hand-written README notes, the
 pilot module's outputs, and legacy tables that nothing in the workflow reads (`gene_df.csv` and the pre-filter
 `*UNFILTERED*` tables).
+
+The committed repository was then cloned fresh, given only `data/raw/`, and rebuilt with `python run.py` (all five
+steps, exit code 0, 23 minutes). Every tracked file (figures, previews, `FIGURES.md`, `results/tables/`) came out
+byte-identical, and all 175 outputs of the first run, data tables included, had the same checksums. The only
+changed file was `results/run_manifest.json`, which records that run and is the version committed here.
 
 ## How much to trust each figure
 
