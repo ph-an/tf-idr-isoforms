@@ -121,8 +121,8 @@ docs/PROVENANCE.md         where the code came from, reconstructed figures, deci
 
 ## What is not rebuilt here
 
-* **MetaPredict IDR prediction** was run once in a Colab notebook (Holehouse lab `idrome_constructor`). Its
-  output, `IDRome_AllSwissProtHumansProIsos.csv`, is the ground-truth input.
+* **MetaPredict IDR prediction** was run once in a Colab notebook (Holehouse lab: https://colab.research.google.com/github/holehouse-lab/ALBATROSS-colab/blob/main/idrome_constructor/idrome_constructor.ipynb). Its
+  output, `IDRome_AllSwissProtHumansProIsos.csv`, was inputted.
 * **TF labels and gene ages** need an Ensembl-gene→UniProt table that exists only on the AKEY cluster. Their
   per-gene results are frozen in `data/external/hpc_snapshot/`; the notebooks use the cluster file when it is present.
 * **GO enrichment** (`notebooks/go_enrichment_CLUSTER_ONLY.ipynb`, `figures/go_enrichment/`) needs GO files on the cluster.
@@ -130,9 +130,7 @@ docs/PROVENANCE.md         where the code came from, reconstructed figures, deci
 
 ## Known issues
 
-Open scientific and presentational issues (uncorrected multiple testing, a mislabelled side bar in one heatmap,
-figures that duplicate each other, wording that implies mediation, and so on) are listed in
-[docs/PROVENANCE.md](docs/PROVENANCE.md#open-issues) and in each figure's notes in [FIGURES.md](FIGURES.md).
+Open issues are currently outlines in [docs/PROVENANCE.md](docs/PROVENANCE.md#open-issues) and in each figure's notes in [FIGURES.md](FIGURES.md).
 
 ## License and citation
 
