@@ -24,7 +24,7 @@ poster, and side projects that are not part of this paper.
 | `pipeline/tfidr_pipeline/`, `pipeline/run_pipeline.py` | `genomiccoords/src/tfidr_pipeline/`, `genomiccoords/src/run_all.py` |
 | `scripts/figures/` | `scripts/figures/` |
 | `run.py` | `scripts/reproduce_all.py` |
-| `figures/proteome/` | `figures/main/` (+ `figures/miscellaneous/tf_canonical_vs_isoform_length_delta.pdf`) |
+| `figures/proteome/` | `figures/main/` |
 | `figures/proteome_extended/` | `figures/analysis_2/` (earlier `figures/claude_figs/`) |
 | `figures/genomic/` | `genomiccoords/figures/`, its `preliminary_analysis/` and `isoform_transcript_mapping/` |
 | `figures/exon_density/` | `susie/figures/` |
@@ -69,22 +69,47 @@ pre-cleanup files (tables by value, PDFs by rendered pixels and by every printed
 four groups; each figure's notes in [FIGURES.md](../FIGURES.md) say which group it is in.
 
 1. **Original code** (notebooks and pipeline stages): reruns reproduce the saved outputs.
-2. **Recovered scripts** — 11 figures from 10 scripts that existed only in a Claude Code session transcript: B1,
+2. **Recovered scripts** — 10 figures from 9 scripts that existed only in a Claude Code session transcript: B1,
    B2 (fig2 canonical vs alternative), D8 (family disorder), E1 (fig4A stars), E14 (fig09), E15 (fig15b), E16
-   (fig16b), F1 (IDR position), F3 (fig03), G12 (fig15 TF vs non-TF), G13 (sticker grammar). The scripts were
+   (fig16b), F1 (IDR position), F3 (fig03), G13 (sticker grammar). The scripts were
    replayed byte-for-byte from the transcript. On the July inputs their outputs were pixel-identical to the
    archived figures, except F1 (0.3% of pixels, because it now reads the current IDR table). The ≥20 aa and
    alternative-exon decisions below have since changed some of their numbers.
-3. **Reconstructions** — 16 figures whose code was lost: A1, A3, B5, B8, C11, C13, D5, D7, E4, F2, F4, F7, G2, G5,
-   G6, G7. For each, candidate definitions were tested until every number printed on the archived original was
+3. **Reconstructions** — 11 figures whose code was lost: A1, A3, B5, B8, C13, D5, D7, F2, F4, F7, G5. For each, candidate definitions were tested until every number printed on the archived original was
    reproduced from the July tables. Layout differs, and a definition that matches every printed number could
    still differ from the original in something the figure does not print.
 4. **Cluster only** — the 4 GO figures (H1–H4) were copied, not regenerated.
 
-In the lab repository, numbers differed for one set of figures: the June 2026 renders of fig1A, fig1B, fig2A/2B
-(all isoforms), fig4A (p-value box) and fig5A–D. They were drawn on the cluster from a slightly different table
-(1,885 instead of 1,888 TF isoforms). Every rebuild gives 1,888, and no significance call changes. The figures
-here are the rebuilt versions.
+In the lab repository, numbers differed for one set of figures: the June 2026 renders of fig1A, fig1B and fig5A–D
+(C1, C2, D1–D4 here; also two figures since removed as duplicates). They were drawn on the cluster from a slightly
+different table (1,885 instead of 1,888 TF isoforms). Every rebuild gives 1,888, and no significance call changes.
+The figures here are the rebuilt versions.
+
+## Duplicates removed (2026-09-15)
+
+Nine figures repeated data and statistics shown in another figure and were removed, together with the code that drew
+them. Figure IDs were not renumbered, so the gaps below are intentional. The removed files remain in git history
+and in the lab repository.
+
+| Removed | Kept | Why it was a duplicate |
+|---|---|---|
+| B3 `fig2A_split_pct_idr_all_isoforms` | B1 | Earlier version comparing canonical with *all* isoforms (the halves overlap); B1 compares canonical with alternative |
+| B4 `fig2B_split_pct_idr_WITHisoforms` | B2 | As above, IDR-containing isoforms |
+| C11 `tf_canonical_vs_isoform_length_delta` | C10 | The TF panel of C10 on its own |
+| E2 `fig4A_geneage_pct_idr` | E1 | Same data and tests; p-values in a box instead of stars |
+| E4 `fig4C_geneage_pctchangeidr` | E5 | Same data and Spearman statistics (reconstruction of the notebook figure) |
+| G2 `fig06_alt_vs_constitutive` | G1 | Same comparison and numbers as G1 panel a |
+| G6 `fig13a_altfraction_boxplot` | G5 | Panel A of G5 on its own (the poster panel) |
+| G7 `fig12_tf_vs_nontf_splicing` | G1, G8, G9, B5 | Every panel is shown in one of those figures |
+| G12 `fig15_idr_gain_loss_tf_vs_nontf` | G11 | G11 without its ALL row (the poster panel) |
+
+Genomic figures were also saved twice, as PDF and PNG; only the PDFs are kept (`figures/previews/` holds PNG renders
+of every figure).
+
+After the removal the notebooks, pipeline, figure scripts and gallery were rerun. Every remaining figure and preview
+was byte-identical to the previous commit, no removed file was regenerated, and all 146 remaining outputs matched the
+lab repository in content (47 byte-identical, 36 tables value-identical, 62 PDFs render-identical, and the QC report,
+which differs only in its date).
 
 ## Analysis decisions
 
@@ -101,14 +126,14 @@ here are the rebuilt versions.
 
 Scientific — flagged for the paper, not changed:
 
-1. **Multiple testing is uncorrected** in B1/B2 (4 tests), B7 (6), D1–D5 (~10 per figure), E1/E2 (4 bins), E14–E16 (per bin), F5–F7 (per bin), G13 (4).
+1. **Multiple testing is uncorrected** in B1/B2 (4 tests), B7 (6), D1–D5 (~10 per figure), E1 (4 bins), E14–E16 (per bin), F5–F7 (per bin), G13 (4).
 2. **F1 "Permutation P < 10⁻³⁰"** is a normal-approximation p from a z-score over 200 circular shifts; an empirical permutation p cannot go below ~1/201. Report it as z-based or as p ≤ 0.005.
 3. **F3 (fig03) is not length-matched.** IDR segments (median 69 aa) are much shorter than ordered segments (median 191 aa), and shorter segments span fewer exons by construction.
 4. **G9 panel C / s9 gene model**: the unadjusted TF coefficient on %IDR range is not significant (β=0.97, t=0.80). It moves to −0.21 with controls and −0.76 after adding IDR-splicing (β=2.74, t=7.2). The title's "TF effect vanishes … IDR-splicing drives it" reads as mediation; the model shows association only.
-5. **G5/G6 (fig13) unit**: isoform × exon rows, so a constitutive exon is counted once per isoform. With unique exons the TF difference holds (0.69 vs 0.56, p=3.7×10⁻¹¹).
-6. **"Removed"/"added" IDR exons (E15, G11, G12)** are relative to the UniProt canonical isoform, not evolutionary loss or gain.
+5. **G5 (fig13) unit**: isoform × exon rows, so a constitutive exon is counted once per isoform. With unique exons the TF difference holds (0.69 vs 0.56, p=3.7×10⁻¹¹).
+6. **"Removed"/"added" IDR exons (E15, G11)** are relative to the UniProt canonical isoform, not evolutionary loss or gain.
 7. **Selective display**: D7 (fig10) shows the top 12 of 25 qualifying families; D5 picks 3 of 5 families tied at median 5 isoforms/gene by sort order; A1's bars are not nested.
-8. **Duplicates** (pick one of each pair): B1/B3, B2/B4, C10/C11, E4/E5, G1a/G2, G11/G12, G5/G6; C5 overlaps C4, C7 overlaps C6, E6 overlaps E3.
+8. **Overlapping figures** (related but not identical; probably use one of each): C4/C5, C6/C7, E3/E6, B7/B8. Exact duplicates were removed (see below).
 9. **GO (H2–H4)**: no plotted term passes FDR 0.05.
 10. **Cohort selection**: genes with ≥3 isoforms are a selected subset of the proteome; APPRIS flags from `03_appris_annotation` are gene-level.
 11. **Poster numbers** for genomic panels use the legacy IDR definition and the GENCODE-wide exon definition where applicable.
@@ -117,10 +142,9 @@ Presentational:
 
 12. **D6 (figG)**: the "n genes" side bars are drawn in reverse row order (the heatmap is correct).
 13. **A5 (fig7A)**: the legend overlaps the non-TF p-value box.
-14. **E4 (fig4C)**: the file name says "pctchangeidr" but the figure shows %IDR.
 
 Computational:
 
-15. The cluster-only `ensg_to_upkb.parquet` (and `DatabaseExtract_v_1.01.csv`) would make TF labels and gene ages rebuildable if copied off the cluster.
-16. `uniprot_ensembl_xref_raw.tsv` came from the live UniProt API; a new download reflects the current release.
-17. The pipeline stamps `data_release_uniprot = "2025_reviewed_human"`, a label rather than a release identifier.
+14. The cluster-only `ensg_to_upkb.parquet` (and `DatabaseExtract_v_1.01.csv`) would make TF labels and gene ages rebuildable if copied off the cluster.
+15. `uniprot_ensembl_xref_raw.tsv` came from the live UniProt API; a new download reflects the current release.
+16. The pipeline stamps `data_release_uniprot = "2025_reviewed_human"`, a label rather than a release identifier.

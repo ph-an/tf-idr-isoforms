@@ -35,6 +35,6 @@ fold=di[0]/dn[0]
 fig.text(0.5,-0.01, f"IDRs are ~{fold:.0f}× more likely than ordered regions to be encoded by a single exon",
          ha="center", fontsize=10.5, style="italic", color="0.3")
 fig.tight_layout()
-for ext in ["pdf","png"]:
+for ext in ["pdf"]:
     fig.savefig(REPO/f"figures/genomic/fig03_idr_modularity.{ext}", bbox_inches="tight")
-print("saved (overwrote fig03 pdf+png)")
+print("saved fig03_idr_modularity.pdf")

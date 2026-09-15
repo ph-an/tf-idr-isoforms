@@ -126,7 +126,6 @@ fig.tight_layout(rect=[0, 0.02, 1, 0.92]); fig.subplots_adjust(wspace=0.06)
 
 OUT = os.path.join(REPO, "figures/genomic")
 fig.savefig(os.path.join(OUT, "fig15b_idr_fate_by_age.pdf"), bbox_inches="tight")
-fig.savefig(os.path.join(OUT, "fig15b_idr_fate_by_age.png"), dpi=200, bbox_inches="tight")
 print("TF conserved %.0f->%.0f  added %.0f->%.0f" % t_tf)
 print("nonTF conserved %.0f->%.0f  added %.0f->%.0f" % t_nt)
-print("saved fig15b_idr_fate_by_age.pdf/png")
+print("saved fig15b_idr_fate_by_age.pdf")

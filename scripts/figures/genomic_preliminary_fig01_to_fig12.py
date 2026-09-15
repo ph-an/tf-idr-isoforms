@@ -1,4 +1,4 @@
-"""RECONSTRUCTION of the 2026-07-14 preliminary genomic figures fig01, fig02, fig04-fig08, fig10-fig12.
+"""RECONSTRUCTION of the 2026-07-14 preliminary genomic figures fig01, fig02, fig04, fig05, fig07, fig08, fig10, fig11.
 
 The code that drew these figures was lost (no copy in the repository, notebooks, or surviving session
 records). Each definition below was identified by recomputing the numbers printed on the archived
@@ -14,11 +14,13 @@ Sets and definitions
                   idr_frac count as non-IDR; frame-symmetric = CDS length divisible by 3
   alternative     exon_usage == "alternative" / "constitutive" (among the gene's mapped transcripts; the
                   paper definition, adopted 2026-09-13). Exons of single-transcript genes are in neither.
-                  The archived originals of fig06, fig07 and fig10 used GENCODE-wide `is_constitutive`
+                  The archived originals of fig07 and fig10 used GENCODE-wide `is_constitutive`
                   (alternative = not in every GENCODE coding transcript); those versions are in
                   the lab repository's archive/figures_superseded/gencode_wide_alternative_exons/.
 Notes carried from verification: fig01 bars are not nested (15,888 MAIN and 15,889 scaffold-validated
 overlap in 15,822); fig10 shows the 12 highest of the families passing the >=50-exon filter.
+fig06 (the same comparison as fig14 panel a) and fig12 (a composite of panels shown in fig14,
+fig_exon_idr_fraction_tf, fig_splicing_idr_mechanism and fig05) were removed as duplicates.
 """
 import sys
 from pathlib import Path
@@ -44,7 +46,6 @@ plt.rcParams.update({"axes.spines.top": False, "axes.spines.right": False, "axes
 def save(fig, name):
     OUT.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT / f"{name}.pdf", bbox_inches="tight")
-    fig.savefig(OUT / f"{name}.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print("wrote", name)
 
@@ -146,24 +147,6 @@ def fig05(master, main):
     save(fig, "fig05_tf_vs_nontf")
 
 
-def fig06(ex):
-    rows = []
-    for label, d in [("All isoforms", ex), ("TF only", ex[ex.is_tf == True])]:
-        rows.append((label, 100 * d.idr_exon[d.alternative].mean(), 100 * d.idr_exon[d.constitutive].mean()))
-    x = np.arange(len(rows)); w = 0.38
-    fig, ax = plt.subplots(figsize=(5.5, 3.7))
-    b1 = ax.bar(x - w / 2, [r[1] for r in rows], w, color=ORANGE, label="alternative exons")
-    b2 = ax.bar(x + w / 2, [r[2] for r in rows], w, color=BLUE, label="constitutive exons")
-    for bars in (b1, b2):
-        label_bars(ax, bars, lambda v: f"{v:.0f}%", 0.8)
-    ax.set_xticks(x, [r[0] for r in rows])
-    ax.set(ylabel="% of exons that encode an IDR", ylim=(0, 70))
-    ax.legend(frameon=False, loc="upper left")
-    ax.grid(axis="x", visible=False)
-    ax.set_title("Alternative exons preferentially encode IDRs", loc="left", fontweight="bold")
-    save(fig, "fig06_alt_vs_constitutive")
-
-
 def fig07(ex):
     classes = [("IDR\nexons", ex.idr_exon, BLUE), ("non-IDR\nexons", ~ex.idr_exon, GREY),
                ("alternative", ex.alternative, ORANGE), ("constitutive", ex.constitutive, SKY),
@@ -233,59 +216,16 @@ def fig11(master):
     save(fig, "fig11_top_idr_rewiring_genes")
 
 
-def fig12(master, main):
-    usage = pd.read_csv(C.ANALYSIS / "splicing_idr_alt_exon_usage.csv").set_index("cohort")
-    frac = pd.read_csv(C.ANALYSIS / "splicing_idr_exon_idr_fraction_tf.csv").set_index("cohort")
-    sym = pd.read_csv(C.ANALYSIS / "splicing_idr_symmetric_exons.csv")
-    sym = sym[sym.scope == "internal_exons"].set_index("cohort")
-    mm = master[master.isoform_accession.isin(main)].groupby("tf_group").pct_idr.mean()
-    groups, x, w = ["non_TF", "TF"], np.arange(2), 0.38
-    fig, axes = plt.subplots(2, 2, figsize=(10, 7.2))
-    a, b, c, d = axes.flat
-    b1 = a.bar(x - w / 2, usage.loc[groups, "alt_exon_idr_pct"], w, color=ORANGE, label="alternative exon")
-    b2 = a.bar(x + w / 2, usage.loc[groups, "const_exon_idr_pct"], w, color=BLUE, label="constitutive exon")
-    for bars in (b1, b2):
-        label_bars(a, bars, lambda v: f"{v:.0f}%", 0.8)
-    a.set(ylabel="% of exons that encode an IDR", ylim=(0, 75)); a.legend(frameon=False, fontsize=8, loc="upper left")
-    a.set_title("A  Alternative exons preferentially encode IDR — in both groups", loc="left", fontweight="bold", fontsize=9)
-    vals = frac.loc[groups, "pooled_exon_idr_fraction"]
-    bars = b.bar(x, vals, 0.6, color=[GREY, VERM])
-    label_bars(b, bars, lambda v: f"{v:.2f}", 0.01)
-    b.text(1, vals.iloc[1] + 0.09, f"{vals.iloc[1] / vals.iloc[0]:.2f}×", ha="center", color=VERM, fontweight="bold")
-    b.set(ylabel="pooled exon IDR fraction (Σ IDR aa / Σ aa)", ylim=(0, 0.75))
-    b.set_title("B  TF exons encode far more disorder per exon", loc="left", fontweight="bold", fontsize=9)
-    b1 = c.bar(x - w / 2, sym.loc[groups, "idr_exon_symmetric_pct"], w, color=VERM, label="IDR exon")
-    b2 = c.bar(x + w / 2, sym.loc[groups, "ordered_exon_symmetric_pct"], w, color=GREY, label="ordered exon")
-    for bars in (b1, b2):
-        label_bars(c, bars, lambda v: f"{v:.0f}%", 0.6)
-    c.axhline(100 / 3, color="0.5", ls=":", lw=1)
-    c.text(1.45, 100 / 3 + 0.6, "random", fontsize=7, color="0.5")
-    c.set(ylabel="% frame-symmetric (splice-compatible)", ylim=(0, 52)); c.legend(frameon=False, fontsize=8, loc="upper right")
-    c.set_title("C  TF IDR exons are more often clean splice cassettes", loc="left", fontweight="bold", fontsize=9)
-    bars = d.bar(x, mm.reindex(["Non-TF", "TF"]).values, 0.6, color=[GREY, VERM])
-    label_bars(d, bars, lambda v: f"{v:.0f}%", 0.8)
-    d.set(ylabel="mean % of protein disordered", ylim=(0, 65))
-    d.set_title("D  TFs are markedly more disordered overall", loc="left", fontweight="bold", fontsize=9)
-    for ax in axes.flat:
-        ax.set_xticks(x, ["non-TF", "TF"])
-        ax.grid(axis="x", visible=False)
-    fig.suptitle("Alternative splicing encodes IDRs in TFs vs non-TFs: same mechanism, larger magnitude", fontweight="bold")
-    fig.tight_layout()
-    save(fig, "fig12_tf_vs_nontf_splicing")
-
-
 def main():
     master, res, scaf, main_set, segs, ex = load()
     fig01(master, scaf, main_set)
     fig02(master, main_set, segs)
     fig04(master, segs)
     fig05(master, main_set)
-    fig06(ex)
     fig07(ex)
     fig08(master, segs)
     fig10(master, ex)
     fig11(master)
-    fig12(master, main_set)
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ alternative and constitutive exons be compared.
 
 ## Choosing figures for the paper
 
-* **[FIGURES.md](FIGURES.md)** is a gallery of all 75 figures, grouped by question. Each has a preview, what it
+* **[FIGURES.md](FIGURES.md)** is a gallery of all 66 figures, grouped by question. Each has a preview, what it
   shows, its statistics, the code that makes it, and caveats (duplicates, reconstructed code, known issues).
 * **[figures/catalog.tsv](figures/catalog.tsv)** is the same list as a spreadsheet. Fill in the `paper` column
   (e.g. `Fig 2B`, `Supp 3`, `drop`), then run `python run.py --steps catalog` to update the gallery.

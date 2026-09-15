@@ -196,9 +196,8 @@ def make_qc_figure(ct):
     ax.set_title("Isoform→transcript resolution by CDS structure", loc="left")
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_mapping_resolution_qc.pdf", bbox_inches="tight")
-    fig.savefig(FIGDIR / "fig_mapping_resolution_qc.png", bbox_inches="tight", dpi=150)
     plt.close(fig)
-    print(f"[fig] wrote fig_mapping_resolution_qc.(pdf|png)")
+    print(f"[fig] wrote fig_mapping_resolution_qc.pdf")
 
 
 def exon_region_class():

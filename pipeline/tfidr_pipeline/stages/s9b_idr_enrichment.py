@@ -17,7 +17,7 @@ Outputs (analysis/):
     idr_enrichment_level2_pergene.csv
     idr_enrichment_level2_summary.csv
 Figure (figures/genomic/):
-    fig14_idr_enrichment_contingency.(png|pdf)
+    fig14_idr_enrichment_contingency.pdf
 """
 import sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -153,7 +153,7 @@ def _lighten(hexc, f=0.55):
     return (r + (1 - r) * f, g + (1 - g) * f, b + (1 - b) * f)
 
 
-def make_figure(l1, per, l2, path_png, path_pdf):
+def make_figure(l1, per, l2, path_pdf):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -235,10 +235,9 @@ def make_figure(l1, per, l2, path_png, path_pdf):
              "Significance: * P<0.05, ** P<0.01, *** P<0.001.",
              fontsize=7.2, color=MUTED, wrap=True)
     fig.tight_layout(rect=[0, 0.03, 1, 0.95])
-    fig.savefig(path_png, dpi=200, bbox_inches="tight")
     fig.savefig(path_pdf, bbox_inches="tight")
     plt.close(fig)
-    print(f"[fig] {path_png.name}")
+    print(f"[fig] {path_pdf.name}")
 
 
 def main():
@@ -256,7 +255,6 @@ def main():
 
     fig_dir = C.FIGURES; fig_dir.mkdir(parents=True, exist_ok=True)
     make_figure(l1, per, l2,
-                fig_dir / "fig14_idr_enrichment_contingency.png",
                 fig_dir / "fig14_idr_enrichment_contingency.pdf")
 
     # ── console summary ──

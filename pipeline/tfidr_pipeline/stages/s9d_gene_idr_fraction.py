@@ -16,7 +16,7 @@ Reads analysis/exon_idr_annotation.csv; no recompute.
 
 Outputs:
     analysis/gene_idr_fraction_alt_vs_const.csv     (one row per gene)
-    figures/genomic/fig17_gene_idr_fraction.(png|pdf)
+    figures/genomic/fig17_gene_idr_fraction.pdf
 """
 import sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -119,7 +119,6 @@ def main():
              fontsize=7.4, color=MUTED, wrap=True)
     fig.tight_layout(rect=[0, 0.03, 1, 0.94])
     OUT = C.FIGURES; OUT.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUT / "fig17_gene_idr_fraction.png", dpi=200, bbox_inches="tight")
     fig.savefig(OUT / "fig17_gene_idr_fraction.pdf", bbox_inches="tight")
     plt.close(fig)
 
@@ -130,7 +129,7 @@ def main():
         s = stats[lab]
         print(f"  {lab:<7} n={s['n']:>5}  {s['pct_pos']:>5}% genes Δ>0  "
               f"median Δ={s['median_delta']:+.3f}  Wilcoxon {_fmt_p(s['p'])} ({_stars(s['p'])})")
-    print(f"\n[fig] fig17_gene_idr_fraction.png")
+    print(f"\n[fig] fig17_gene_idr_fraction.pdf")
 
 
 if __name__ == "__main__":

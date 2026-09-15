@@ -106,7 +106,6 @@ fig.subplots_adjust(left=0.115,right=0.985,top=0.90,bottom=0.24)
 
 OUT=REPO/"figures/genomic"
 fig.savefig(OUT/"fig16b_idrfrac_by_age.pdf",bbox_inches="tight")
-fig.savefig(OUT/"fig16b_idrfrac_by_age.png",dpi=200,bbox_inches="tight")
 print("Non-TF means:", [round(x,2) for x in non_means])
 print("TF means:    ", [round(x,2) for x in tf_means])
-print("saved fig16b_idrfrac_by_age.pdf/png")
+print("saved fig16b_idrfrac_by_age.pdf")

@@ -10,7 +10,7 @@ Reads the s9 exon table (analysis/exon_idr_annotation.csv); no recompute.
 
 Outputs:
     analysis/exon_idr_fraction_continuous.csv
-    figures/genomic/fig16_exon_idr_fraction_continuous.(png|pdf)
+    figures/genomic/fig16_exon_idr_fraction_continuous.pdf
 """
 import sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -164,7 +164,6 @@ def main():
              fontsize=7.4, color=MUTED, wrap=True)
     fig.tight_layout(rect=[0, 0.03, 1, 0.94])
     OUT = C.FIGURES; OUT.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUT / "fig16_exon_idr_fraction_continuous.png", dpi=200, bbox_inches="tight")
     fig.savefig(OUT / "fig16_exon_idr_fraction_continuous.pdf", bbox_inches="tight")
     plt.close(fig)
 
@@ -175,7 +174,7 @@ def main():
     print(f"\nalt vs const (Mann-Whitney, one-sided):")
     for c in cohorts:
         print(f"  {c:<7} {_fmt_p(pvals[c])}  ({_stars(pvals[c])})")
-    print(f"\n[fig] fig16_exon_idr_fraction_continuous.png")
+    print(f"\n[fig] fig16_exon_idr_fraction_continuous.pdf")
 
 
 if __name__ == "__main__":

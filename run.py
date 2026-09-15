@@ -52,12 +52,11 @@ FIGURE_SCRIPTS = [
     "fig4A_gene_age_pct_idr_stars.py",
     "fig_family_disorder.py",
     "fig_idr_position_protein_exon.py",      # also reads data/genomic exon_level_table
-    "fig4C_5Dalt_length_delta_proteome.py",  # reconstruction
+    "fig5D_families_by_isoform_count.py",    # reconstruction
     # genomic (read data/genomic)
     "fig03_idr_modularity.py",
     "fig09_gene_age.py",
     "fig13_gene_grouping_alt_fraction.py",   # reconstruction
-    "fig15_idr_gain_loss_tf_vs_nontf.py",
     "fig15b_idr_fate_by_age.py",
     "fig16b_idrfrac_by_age.py",
     "fig_splice_idr_sticker_grammar.py",

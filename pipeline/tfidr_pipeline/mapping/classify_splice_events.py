@@ -212,9 +212,8 @@ def make_figure(ev, summ):
     ax.set_title("Splice-event type → IDR consequence (canonical vs alternative)", loc="left")
     fig.tight_layout()
     fig.savefig(FIGDIR / "fig_splice_event_idr.pdf", bbox_inches="tight")
-    fig.savefig(FIGDIR / "fig_splice_event_idr.png", bbox_inches="tight", dpi=150)
     plt.close(fig)
-    print("[fig] wrote fig_splice_event_idr.(pdf|png)")
+    print("[fig] wrote fig_splice_event_idr.pdf")
 
 
 if __name__ == "__main__":

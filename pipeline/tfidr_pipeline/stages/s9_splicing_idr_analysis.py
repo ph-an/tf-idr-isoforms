@@ -24,7 +24,7 @@ Outputs (analysis/):
     splicing_idr_biophysics_lengthmatched.csv
     exon_idr_annotation.csv                (the shared per-exon table)
 Figure (figures/genomic/):
-    fig_splicing_idr_mechanism.(pdf|png)   (rendered if matplotlib is present)
+    fig_splicing_idr_mechanism.pdf, fig_exon_idr_fraction_tf.pdf
 """
 import sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -249,7 +249,7 @@ def step4_biophysics(ex, idf, master):
 
 
 # ── figure ───────────────────────────────────────────────────────────────────
-def make_figure(s1, s2, s3, bio_seg, path_pdf, path_png):
+def make_figure(s1, s2, s3, bio_seg, path_pdf):
     try:
         import matplotlib
         matplotlib.use("Agg")
@@ -330,9 +330,8 @@ def make_figure(s1, s2, s3, bio_seg, path_pdf, path_png):
                  fontsize=10.5, y=1.00)
     fig.tight_layout(rect=(0, 0, 1, 0.98))
     fig.savefig(path_pdf, bbox_inches="tight")
-    fig.savefig(path_png, bbox_inches="tight", dpi=150)
     plt.close(fig)
-    print(f"[fig] wrote {path_pdf.name} + {path_png.name}")
+    print(f"[fig] wrote {path_pdf.name}")
 
 
 def step5_exon_idr_fraction(ex):
@@ -360,7 +359,7 @@ def step5_exon_idr_fraction(ex):
     return res, d
 
 
-def make_exon_fraction_figure(d, table, path_pdf, path_png):
+def make_exon_fraction_figure(d, table, path_pdf):
     """Two panels: (A) ECDF of per-exon IDR fraction, (B) pooled fraction bar."""
     try:
         import matplotlib
@@ -411,9 +410,8 @@ def make_exon_fraction_figure(d, table, path_pdf, path_png):
                  fontsize=10.5, y=1.02)
     fig.tight_layout(rect=(0, 0, 1, 0.97))
     fig.savefig(path_pdf, bbox_inches="tight")
-    fig.savefig(path_png, bbox_inches="tight", dpi=150)
     plt.close(fig)
-    print(f"[fig] wrote {path_pdf.name} + {path_png.name}")
+    print(f"[fig] wrote {path_pdf.name}")
 
 
 def main():
@@ -448,11 +446,9 @@ def main():
         C.stamp(df).to_csv(C.ANALYSIS / f"splicing_idr_{name}.csv", index=False)
 
     make_figure(r1, r2, r3, bio_seg,
-                C.FIGURES / "fig_splicing_idr_mechanism.pdf",
-                C.FIGURES / "fig_splicing_idr_mechanism.png")
+                C.FIGURES / "fig_splicing_idr_mechanism.pdf")
     make_exon_fraction_figure(ex_frac, r5,
-                C.FIGURES / "fig_exon_idr_fraction_tf.pdf",
-                C.FIGURES / "fig_exon_idr_fraction_tf.png")
+                C.FIGURES / "fig_exon_idr_fraction_tf.pdf")
 
     # ── headline console summary ──
     print("\n" + "=" * 68)

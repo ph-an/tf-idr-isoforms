@@ -1,7 +1,7 @@
-"""RECONSTRUCTION of fig13_gene_grouping_alt_fraction and fig13a_altfraction_boxplot.
+"""RECONSTRUCTION of fig13_gene_grouping_alt_fraction.
 
-The code behind fig13 (2026-07-15) is lost, and fig13a was made by cropping fig13's PNG and
-repainting its p-value label by hand (see docs/PROVENANCE.md).
+The code behind fig13 (2026-07-15) is lost (see docs/PROVENANCE.md). The poster's fig13a was panel A
+cropped by hand; it is not produced here because panel A of fig13 is the same plot.
 The metric below was identified by testing candidate definitions against every statistic
 printed on the archived figure; it matches all of them on the 2026-07 pipeline outputs:
 TF n=365 / non-TF n=4,165 genes, medians 0.50 / 0.36, means 0.53 / 0.44, MWU p = 1.36e-10.
@@ -30,11 +30,6 @@ OUT = REPO / "figures" / "genomic"
 TABLES = REPO / "results" / "tables"
 TF_C, NT_C = "#D55E00", "#888888"
 MAX_POINTS = 400
-
-
-def p_label(p):
-    mantissa, exponent = f"{p:.1e}".split("e")
-    return rf"MWU $P$ = {mantissa}$\times$10$^{{{int(exponent)}}}$"
 
 
 def gene_alt_fraction():
@@ -95,15 +90,7 @@ def main():
     fig.suptitle("Grouping by gene: TF genes are more alternatively spliced than non-TF genes",
                  x=0.01, ha="left", fontsize=12.5, fontweight="bold")
     fig.tight_layout()
-    fig.savefig(OUT / "fig13_gene_grouping_alt_fraction.png", dpi=150, bbox_inches="tight")
     fig.savefig(OUT / "fig13_gene_grouping_alt_fraction.pdf", bbox_inches="tight")
-    plt.close(fig)
-
-    # fig13a: panel A alone, with the P label style used on the poster
-    fig, ax = plt.subplots(figsize=(5.4, 4.0))
-    box_panel(ax, nt, tf, p, np.random.default_rng(13), p_label(p))
-    fig.tight_layout()
-    fig.savefig(OUT / "fig13a_altfraction_boxplot.pdf", bbox_inches="tight")
     plt.close(fig)
 
 

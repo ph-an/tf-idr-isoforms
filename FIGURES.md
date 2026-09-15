@@ -13,15 +13,15 @@ How to read the entries:
 * p-values are uncorrected for multiple testing unless the entry says otherwise.
 * *Poster* marks panels used on the 2026 QCB SURP poster.
 
-75 figures:
+66 figures:
 
 * [A. Cohort, transcript mapping and IDR inventory](#cohort-transcript-mapping-and-idr-inventory) — A1, A2, A3, A4, A5
-* [B. TFs vs non-TFs: disorder content and IDR properties](#tfs-vs-non-tfs-disorder-content-and-idr-properties) — B1, B2, B3, B4, B5, B6, B7, B8, B9
-* [C. Disorder variation across a gene's isoforms](#disorder-variation-across-a-genes-isoforms) — C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13
+* [B. TFs vs non-TFs: disorder content and IDR properties](#tfs-vs-non-tfs-disorder-content-and-idr-properties) — B1, B2, B5, B6, B7, B8, B9
+* [C. Disorder variation across a gene's isoforms](#disorder-variation-across-a-genes-isoforms) — C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C12, C13
 * [D. TF families and protein families](#tf-families-and-protein-families) — D1, D2, D3, D4, D5, D6, D7, D8
-* [E. Gene age](#gene-age) — E1, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16
+* [E. Gene age](#gene-age) — E1, E3, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16
 * [F. Where IDRs sit in proteins and exons](#where-idrs-sit-in-proteins-and-exons) — F1, F2, F3, F4, F5, F6, F7
-* [G. Alternative splicing and IDRs](#alternative-splicing-and-idrs) — G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13
+* [G. Alternative splicing and IDRs](#alternative-splicing-and-idrs) — G1, G3, G4, G5, G8, G9, G10, G11, G13
 * [H. Function: GO enrichment (cluster only)](#function-go-enrichment-cluster-only) — H1, H2, H3, H4
 
 ## Cohort, transcript mapping and IDR inventory
@@ -120,8 +120,6 @@ How to read the entries:
 |---|---|---|---|
 | [B1](#b1) | %IDR of canonical vs alternative isoforms, TF vs non-TF | yes |  |
 | [B2](#b2) | As B1, IDR-containing isoforms only |  |  |
-| [B3](#b3) | %IDR of canonical vs all isoforms, TF vs non-TF |  |  |
-| [B4](#b4) | As B3, IDR-containing isoforms only |  |  |
 | [B5](#b5) | TFs are more disordered (MAIN set) |  |  |
 | [B6](#b6) | IDR segment length, TF vs non-TF |  |  |
 | [B7](#b7) | IDR sequence properties, TF vs non-TF |  |  |
@@ -140,7 +138,7 @@ How to read the entries:
 | Shows | Split violins of %IDR per isoform: non-TF canonical 4,727 / alternative 15,186; TF canonical 416 / alternative 1,472. |
 | Statistics | 4 two-sided MWU tests shown as stars (canonical vs alternative within group: ns, ns; TF vs non-TF: ****, ****); no multiple-testing correction. |
 | Made by | `scripts/figures/fig2_canonical_vs_alternative_violins.py` |
-| Notes | Recovered script. Poster version of B3. |
+| Notes | Recovered script. Replaces an earlier version that compared canonical with all isoforms (overlapping groups; removed as a duplicate). |
 | Poster | yes |
 | Paper | not decided |
 
@@ -157,38 +155,6 @@ How to read the entries:
 | Statistics | 4 MWU tests as stars (non-TF canonical vs alternative ****, TF ns; TF vs non-TF ****, ****); uncorrected. |
 | Made by | `scripts/figures/fig2_canonical_vs_alternative_violins.py` |
 | Notes | Recovered script. |
-| Poster | no |
-| Paper | not decided |
-
-### B3
-
-**%IDR of canonical vs all isoforms, TF vs non-TF**
-
-<a href="figures/proteome/fig2A_split_pct_idr_all_isoforms.pdf"><img src="figures/previews/proteome__fig2A_split_pct_idr_all_isoforms.png" width="720" alt="B3: %IDR of canonical vs all isoforms, TF vs non-TF"></a>
-
-| | |
-|---|---|
-| File | [`figures/proteome/fig2A_split_pct_idr_all_isoforms.pdf`](figures/proteome/fig2A_split_pct_idr_all_isoforms.pdf) |
-| Shows | Split violins of %IDR: canonical isoforms vs all isoforms (canonical included), TF vs non-TF. |
-| Statistics | MWU p-values in a text box (canonical TF vs non-TF p=1.2e-76; all isoforms p=5.1e-280; within group p=0.49 and 0.86). |
-| Made by | `notebooks/02_proteome_analysis` |
-| Notes | Earlier version of B1; the two halves overlap (canonical isoforms are part of 'all'). Prefer B1. |
-| Poster | no |
-| Paper | not decided |
-
-### B4
-
-**As B3, IDR-containing isoforms only**
-
-<a href="figures/proteome/fig2B_split_pct_idr_WITHisoforms.pdf"><img src="figures/previews/proteome__fig2B_split_pct_idr_WITHisoforms.png" width="720" alt="B4: As B3, IDR-containing isoforms only"></a>
-
-| | |
-|---|---|
-| File | [`figures/proteome/fig2B_split_pct_idr_WITHisoforms.pdf`](figures/proteome/fig2B_split_pct_idr_WITHisoforms.pdf) |
-| Shows | As B3 restricted to isoforms with >=1 IDR. |
-| Statistics | MWU p-values in a text box. |
-| Made by | `notebooks/02_proteome_analysis` |
-| Notes | Earlier version of B2; overlapping halves. Prefer B2. |
 | Poster | no |
 | Paper | not decided |
 
@@ -286,7 +252,6 @@ How to read the entries:
 | [C8](#c8) | How representative is the canonical isoform? |  |  |
 | [C9](#c9) | Direction of %IDR change in alternative isoforms |  |  |
 | [C10](#c10) | Are canonical isoforms longer than their alternatives? |  |  |
-| [C11](#c11) | TF isoform length relative to canonical |  |  |
 | [C12](#c12) | TF alternative isoforms that lose or gain IDR segments |  |  |
 | [C13](#c13) | Genes with the largest within-gene %IDR range |  |  |
 
@@ -446,23 +411,7 @@ How to read the entries:
 | Shows | Canonical - alternative length per alternative isoform: TF median +72 aa (87.1% canonical longer); non-TF +66 aa (85.7%). p1-p99 shown. |
 | Statistics | Descriptive. |
 | Made by | `notebooks/02_proteome_analysis` |
-| Notes | — |
-| Poster | no |
-| Paper | not decided |
-
-### C11
-
-**TF isoform length relative to canonical**
-
-<a href="figures/proteome/tf_canonical_vs_isoform_length_delta.pdf"><img src="figures/previews/proteome__tf_canonical_vs_isoform_length_delta.png" width="720" alt="C11: TF isoform length relative to canonical"></a>
-
-| | |
-|---|---|
-| File | [`figures/proteome/tf_canonical_vs_isoform_length_delta.pdf`](figures/proteome/tf_canonical_vs_isoform_length_delta.pdf) |
-| Shows | The TF panel of C10 as a standalone figure (N=1,472 alternative isoforms, 416 genes; median +72 aa). |
-| Statistics | Descriptive. |
-| Made by | `scripts/figures/fig4C_5Dalt_length_delta_proteome.py` |
-| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Duplicates the left panel of C10. |
+| Notes | A TF-only copy of the left panel was removed as a duplicate. |
 | Poster | no |
 | Paper | not decided |
 
@@ -586,7 +535,7 @@ How to read the entries:
 | File | [`figures/proteome/fig5D_tf_families_pctidr_nisoforms.pdf`](figures/proteome/fig5D_tf_families_pctidr_nisoforms.pdf) |
 | Shows | %IDR histograms for the 5 TF families with the most isoforms per gene (p53, MADS box, GTF2I-like, IRF, Rel) and the 2 with the fewest (RFX, T-box), plus Unknown, Other and Non-TF. |
 | Statistics | MWU vs Non-TF (Non-TF panel vs all TFs), uncorrected. |
-| Made by | `scripts/figures/fig4C_5Dalt_length_delta_proteome.py` |
+| Made by | `scripts/figures/fig5D_families_by_isoform_count.py` |
 | Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Five families tie at median 5 isoforms/gene; which three appear is decided by sort order, not the data. |
 | Poster | no |
 | Paper | not decided |
@@ -644,9 +593,7 @@ How to read the entries:
 | ID | Figure | Poster | Paper |
 |---|---|---|---|
 | [E1](#e1) | %IDR by gene age, TF vs non-TF | yes |  |
-| [E2](#e2) | %IDR by gene age (p-value box) |  |  |
 | [E3](#e3) | Isoforms per gene by gene age |  |  |
-| [E4](#e4) | Canonical %IDR by gene age, TF and non-TF |  |  |
 | [E5](#e5) | Gene age vs canonical %IDR |  |  |
 | [E6](#e6) | Gene age vs isoform count |  |  |
 | [E7](#e7) | Gene age vs within-gene %IDR range |  |  |
@@ -670,26 +617,10 @@ How to read the entries:
 |---|---|
 | File | [`figures/proteome/fig4A_geneage_pct_idr_stars.pdf`](figures/proteome/fig4A_geneage_pct_idr_stars.pdf) |
 | Shows | Split violins of %IDR per isoform by GenOrigin age bin (<100, 100-500, 500-1000, >1000 Ma), TF vs non-TF. |
-| Statistics | MWU per bin as stars (ns, ****, ****, ****); 4 uncorrected tests. |
+| Statistics | MWU per bin as stars (p = 0.35, 2.7e-22, 2.4e-211, 2.6e-58); 4 uncorrected tests. |
 | Made by | `scripts/figures/fig4A_gene_age_pct_idr_stars.py` |
-| Notes | Recovered script. Poster version of E2. |
+| Notes | Recovered script. An earlier copy with a p-value box (same tests) was removed as a duplicate. |
 | Poster | yes |
-| Paper | not decided |
-
-### E2
-
-**%IDR by gene age (p-value box)**
-
-<a href="figures/proteome/fig4A_geneage_pct_idr.pdf"><img src="figures/previews/proteome__fig4A_geneage_pct_idr.png" width="720" alt="E2: %IDR by gene age (p-value box)"></a>
-
-| | |
-|---|---|
-| File | [`figures/proteome/fig4A_geneage_pct_idr.pdf`](figures/proteome/fig4A_geneage_pct_idr.pdf) |
-| Shows | As E1 with p-values in a text box. |
-| Statistics | MWU per bin: 0.35, 2.7e-22, 2.4e-211, 2.6e-58. |
-| Made by | `notebooks/02_proteome_analysis` |
-| Notes | Earlier version of E1. |
-| Poster | no |
 | Paper | not decided |
 
 ### E3
@@ -708,22 +639,6 @@ How to read the entries:
 | Poster | no |
 | Paper | not decided |
 
-### E4
-
-**Canonical %IDR by gene age, TF and non-TF**
-
-<a href="figures/proteome/fig4C_geneage_pctchangeidr.pdf"><img src="figures/previews/proteome__fig4C_geneage_pctchangeidr.png" width="720" alt="E4: Canonical %IDR by gene age, TF and non-TF"></a>
-
-| | |
-|---|---|
-| File | [`figures/proteome/fig4C_geneage_pctchangeidr.pdf`](figures/proteome/fig4C_geneage_pctchangeidr.pdf) |
-| Shows | Canonical isoforms: %IDR by age bin, non-TF and TF panels (the file name says pct change, but the metric is %IDR). |
-| Statistics | Spearman vs gene age: non-TF rho=-0.186 (p=6.4e-38); TF rho=0.247 (p=3.2e-7). |
-| Made by | `scripts/figures/fig4C_5Dalt_length_delta_proteome.py` |
-| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Same data and statistics as E5. |
-| Poster | no |
-| Paper | not decided |
-
 ### E5
 
 **Gene age vs canonical %IDR**
@@ -733,10 +648,10 @@ How to read the entries:
 | | |
 |---|---|
 | File | [`figures/proteome_extended/fig_age1_pct_idr_vs_age.pdf`](figures/proteome_extended/fig_age1_pct_idr_vs_age.pdf) |
-| Shows | As E4 (canonical %IDR by age bin, non-TF and TF). |
-| Statistics | Spearman: non-TF rho=-0.186; TF rho=0.247. |
+| Shows | Canonical isoforms: %IDR by gene-age bin, non-TF and TF panels. |
+| Statistics | Spearman vs gene age: non-TF rho=-0.186 (p=6.4e-38); TF rho=0.247 (p=3.2e-7). |
 | Made by | `notebooks/05_proteome_analysis_extended` |
-| Notes | Duplicate of E4. |
+| Notes | A reconstructed copy (fig4C) was removed as a duplicate. |
 | Poster | no |
 | Paper | not decided |
 
@@ -1045,17 +960,13 @@ How to read the entries:
 | ID | Figure | Poster | Paper |
 |---|---|---|---|
 | [G1](#g1) | IDRs are enriched in alternative exons | yes |  |
-| [G2](#g2) | Alternative exons preferentially encode IDRs |  |  |
 | [G3](#g3) | Continuous IDR fraction of alternative vs constitutive exons | yes |  |
 | [G4](#g4) | Per gene, alternative exons are more disordered |  |  |
 | [G5](#g5) | TF genes have a larger share of alternative exons | yes |  |
-| [G6](#g6) | As G5, panel A only | yes |  |
-| [G7](#g7) | Splicing and IDRs in TFs vs non-TFs: four panels |  |  |
 | [G8](#g8) | TF exons encode more disorder per exon |  |  |
 | [G9](#g9) | Splicing modulates IDRs: mechanism summary |  |  |
 | [G10](#g10) | Splice-event types and their IDR consequence |  |  |
-| [G11](#g11) | IDR exons conserved, removed or added (all / TF / non-TF) |  |  |
-| [G12](#g12) | As G11, TF and non-TF only | yes |  |
+| [G11](#g11) | IDR exons conserved, removed or added (all / TF / non-TF) | yes |  |
 | [G13](#g13) | Aromatic and charged residues of added vs removed IDR exons |  |  |
 
 ### G1
@@ -1070,24 +981,8 @@ How to read the entries:
 | Shows | a: % of exons encoding an IDR, alternative vs constitutive, all / TF / non-TF (38 vs 26%, 61 vs 50%, 36 vs 24%); b: per-gene difference in IDR fraction; c: per-gene Fisher volcano. |
 | Statistics | Pooled chi-square 2x2 with odds ratio per cohort; per-gene sign test and Fisher tests. |
 | Made by | `pipeline/tfidr_pipeline/stages/s9b_idr_enrichment.py` |
-| Notes | Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). |
+| Notes | Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). fig06 (the same comparison counted per isoform) and fig12 (a composite of panels from G1, G8, G9 and B5) were removed as duplicates. |
 | Poster | yes |
-| Paper | not decided |
-
-### G2
-
-**Alternative exons preferentially encode IDRs**
-
-<a href="figures/genomic/fig06_alt_vs_constitutive.pdf"><img src="figures/previews/genomic__fig06_alt_vs_constitutive.png" width="720" alt="G2: Alternative exons preferentially encode IDRs"></a>
-
-| | |
-|---|---|
-| File | [`figures/genomic/fig06_alt_vs_constitutive.pdf`](figures/genomic/fig06_alt_vs_constitutive.pdf) |
-| Shows | % of coding exon rows encoding an IDR, alternative vs constitutive: all isoforms 38% vs 26%; TF 61% vs 50%. |
-| Statistics | Descriptive; exons counted once per isoform. |
-| Made by | `scripts/figures/genomic_preliminary_fig01_to_fig12.py` |
-| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). Same comparison as G1 panel a. |
-| Poster | no |
 | Paper | not decided |
 
 ### G3
@@ -1134,40 +1029,8 @@ How to read the entries:
 | Shows | Per gene: share of exon rows that are alternative; TF 365 vs non-TF 4,165 genes (medians 0.50 vs 0.36); box/strip and cumulative distribution. |
 | Statistics | Two-sided MWU p=1.4e-10. |
 | Made by | `scripts/figures/fig13_gene_grouping_alt_fraction.py` |
-| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). Rows are isoform x exon, so constitutive exons count once per isoform; with unique exons p=3.7e-11. With the GENCODE-wide definition there is no difference (p=0.86). |
+| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). Rows are isoform x exon, so constitutive exons count once per isoform; with unique exons p=3.7e-11. With the GENCODE-wide definition there is no difference (p=0.86). The poster used panel A alone (fig13a); that copy was removed as a duplicate. |
 | Poster | yes |
-| Paper | not decided |
-
-### G6
-
-**As G5, panel A only**
-
-<a href="figures/genomic/fig13a_altfraction_boxplot.pdf"><img src="figures/previews/genomic__fig13a_altfraction_boxplot.png" width="720" alt="G6: As G5, panel A only"></a>
-
-| | |
-|---|---|
-| File | [`figures/genomic/fig13a_altfraction_boxplot.pdf`](figures/genomic/fig13a_altfraction_boxplot.pdf) |
-| Shows | Panel A of G5 as a standalone figure. |
-| Statistics | Two-sided MWU p=1.4e-10. |
-| Made by | `scripts/figures/fig13_gene_grouping_alt_fraction.py` |
-| Notes | As G5. |
-| Poster | yes |
-| Paper | not decided |
-
-### G7
-
-**Splicing and IDRs in TFs vs non-TFs: four panels**
-
-<a href="figures/genomic/fig12_tf_vs_nontf_splicing.pdf"><img src="figures/previews/genomic__fig12_tf_vs_nontf_splicing.png" width="720" alt="G7: Splicing and IDRs in TFs vs non-TFs: four panels"></a>
-
-| | |
-|---|---|
-| File | [`figures/genomic/fig12_tf_vs_nontf_splicing.pdf`](figures/genomic/fig12_tf_vs_nontf_splicing.pdf) |
-| Shows | A: % of exons encoding an IDR, alternative vs constitutive; B: pooled exon IDR fraction (0.33 vs 0.59, 1.79x); C: frame-symmetric internal exons, IDR vs ordered; D: mean %IDR (MAIN). |
-| Statistics | Descriptive (values from the s9 statistics tables). |
-| Made by | `scripts/figures/genomic_preliminary_fig01_to_fig12.py` |
-| Notes | RECONSTRUCTION: the original code was lost; every value printed on the original figure is reproduced. Alternative exon = present in some but not all of the gene's mapped transcripts (exon_usage). Panels repeat G1, G8, G9. |
-| Poster | no |
 | Paper | not decided |
 
 ### G8
@@ -1230,23 +1093,7 @@ How to read the entries:
 | Shows | Per canonical-alternative comparison, IDR exons conserved in both, removed (canonical only) or added (alternative only): 72% / 22% / 5-6% in every group. |
 | Statistics | chi-square 2x3 TF vs non-TF: P=0.75, Cramer's V=0.004. |
 | Made by | `pipeline/tfidr_pipeline/stages/s10b_idr_gain_loss.py` |
-| Notes | 'Removed' is relative to the canonical isoform, not evolutionary loss. |
-| Poster | no |
-| Paper | not decided |
-
-### G12
-
-**As G11, TF and non-TF only**
-
-<a href="figures/genomic/fig15_idr_gain_loss_tf_vs_nontf.pdf"><img src="figures/previews/genomic__fig15_idr_gain_loss_tf_vs_nontf.png" width="720" alt="G12: As G11, TF and non-TF only"></a>
-
-| | |
-|---|---|
-| File | [`figures/genomic/fig15_idr_gain_loss_tf_vs_nontf.pdf`](figures/genomic/fig15_idr_gain_loss_tf_vs_nontf.pdf) |
-| Shows | G11 without the ALL row (TF: 3,779 conserved, 1,164 removed, 295 added). |
-| Statistics | chi-square 2x3: P=0.75. |
-| Made by | `scripts/figures/fig15_idr_gain_loss_tf_vs_nontf.py` |
-| Notes | Recovered script. Poster version of G11. |
+| Notes | 'Removed' is relative to the canonical isoform, not evolutionary loss. The poster used a copy without the ALL row (removed as a duplicate). |
 | Poster | yes |
 | Paper | not decided |
 

@@ -22,7 +22,7 @@ distribution depend on TF status? (χ² + Cramér's V effect size.)
 
 Outputs:
     analysis/idr_gain_loss_by_tf.csv
-    figures/genomic/fig15_idr_gain_loss_by_tf.(png|pdf)
+    figures/genomic/fig15_idr_gain_loss_by_tf.pdf
 """
 import sys
 sys.stdout.reconfigure(encoding="utf-8")
@@ -131,7 +131,7 @@ def test_tf_vs_nontf(cat):
     return t, chi2, p, v
 
 
-def make_figure(summ, meta, p, v, path_png, path_pdf):
+def make_figure(summ, meta, p, v, path_pdf):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
@@ -203,10 +203,9 @@ def make_figure(summ, meta, p, v, path_png, path_pdf):
     # tight_layout leaves an unnecessarily wide gutter for panel b's y label.
     # Set the final spacing explicitly after it has measured all text.
     fig.subplots_adjust(wspace=0.12)
-    fig.savefig(path_png, dpi=200, bbox_inches="tight")
     fig.savefig(path_pdf, bbox_inches="tight")
     plt.close(fig)
-    print(f"[fig] {path_png.name}")
+    print(f"[fig] {path_pdf.name}")
 
 
 def main():
@@ -217,7 +216,6 @@ def main():
     C.stamp(summ).to_csv(C.ANALYSIS / "idr_gain_loss_by_tf.csv", index=False)
     fig_dir = C.FIGURES; fig_dir.mkdir(parents=True, exist_ok=True)
     make_figure(summ, meta, p, v,
-                fig_dir / "fig15_idr_gain_loss_by_tf.png",
                 fig_dir / "fig15_idr_gain_loss_by_tf.pdf")
 
     print("\n" + "=" * 70)
